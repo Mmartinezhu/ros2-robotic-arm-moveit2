@@ -1,0 +1,4 @@
+../Core/Src/as5600.c:10:6:AS5600_Init	32	static
+../Core/Src/as5600.c:59:6:AS5600_GetAngle	40	static
+../Core/Src/as5600.c:76:6:AS5600_SetOutputMode	32	static
+../Core/Src/as5600.c:124:6:AS5600_GetMagnetStatus	32	static
