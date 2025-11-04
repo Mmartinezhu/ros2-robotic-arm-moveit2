@@ -1,0 +1,1 @@
+/home/manuel/ws_moveit/build/basic_arm2_moveit_config/ament_cmake_core/basic_arm2_moveit_configConfig.cmake

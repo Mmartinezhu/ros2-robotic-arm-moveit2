@@ -1,0 +1,51 @@
+[0.066s] Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake /home/manuel/ws_moveit/src/dummy_arm2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/src/install/dummy_arm2_description
+[0.130s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.637s] -- Configuring done (0.5s)
+[0.653s] -- Generating done (0.0s)
+[0.656s] [33mCMake Warning:
+[0.656s]   Manually-specified variables were not used by the project:
+[0.656s] 
+[0.657s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.657s]     CATKIN_SYMLINK_INSTALL
+[0.657s] 
+[0.657s] [0m
+[0.660s] -- Build files have been written to: /home/manuel/ws_moveit/src/build/dummy_arm2_description
+[0.670s] Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake /home/manuel/ws_moveit/src/dummy_arm2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/src/install/dummy_arm2_description
+[0.674s] Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake --build /home/manuel/ws_moveit/src/build/dummy_arm2_description -- -j8 -l8
+[0.756s] Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake --build /home/manuel/ws_moveit/src/build/dummy_arm2_description -- -j8 -l8
+[0.773s] Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake --install /home/manuel/ws_moveit/src/build/dummy_arm2_description
+[0.784s] -- Install configuration: ""
+[0.784s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch
+[0.784s] -- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/display.launch.py
+[0.785s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/gazebo.launch
+[0.785s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/controller.yaml
+[0.785s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/controller.launch
+[0.785s] -- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/urdf.rviz
+[0.786s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf
+[0.786s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf/dummy_arm2.xacro
+[0.786s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf/dummy_arm2.trans
+[0.786s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf/dummy_arm2.gazebo
+[0.787s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf/materials.xacro
+[0.787s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes
+[0.787s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente24_1.stl
+[0.787s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente22_1.stl
+[0.787s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente25_1.stl
+[0.787s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente23_1.stl
+[0.788s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente26_1.stl
+[0.788s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/base_link.stl
+[0.850s] -- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/ament_index/resource_index/package_run_dependencies/dummy_arm2_description
+[0.858s] -- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/ament_index/resource_index/parent_prefix_path/dummy_arm2_description
+[0.858s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/environment/ament_prefix_path.sh
+[0.859s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/environment/ament_prefix_path.dsv
+[0.859s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/environment/path.sh
+[0.859s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/environment/path.dsv
+[0.859s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/local_setup.bash
+[0.860s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/local_setup.sh
+[0.860s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/local_setup.zsh
+[0.860s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/local_setup.dsv
+[0.861s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.dsv
+[0.861s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/ament_index/resource_index/packages/dummy_arm2_description
+[0.861s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/cmake/dummy_arm2_descriptionConfig.cmake
+[0.861s] -- Up-to-date: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/cmake/dummy_arm2_descriptionConfig-version.cmake
+[0.862s] -- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.xml
+[0.867s] Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake --install /home/manuel/ws_moveit/src/build/dummy_arm2_description

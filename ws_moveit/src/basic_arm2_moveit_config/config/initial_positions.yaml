@@ -1,0 +1,7 @@
+# Default initial positions for basic_arm2's ros2_control fake system
+
+initial_positions:
+  rev_1: 0
+  rev_2: 0
+  rev_3: 0
+  rev_4: 0

@@ -1,0 +1,398 @@
+[0.000000] (-) TimerEvent: {}
+[0.000806] (-) JobUnselected: {'identifier': 'arm_bridge'}
+[0.000887] (-) JobUnselected: {'identifier': 'arm_hardware'}
+[0.000936] (-) JobUnselected: {'identifier': 'basic_arm2_description'}
+[0.000974] (-) JobUnselected: {'identifier': 'basic_arm2_moveit_config'}
+[0.001012] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.001048] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.001083] (-) JobUnselected: {'identifier': 'dummy_arm2_description'}
+[0.001117] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.001151] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.001185] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.001219] (-) JobUnselected: {'identifier': 'kinova_gen3_lite_moveit_config'}
+[0.001253] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.001288] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.001322] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.001356] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.001390] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001424] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.001458] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.001492] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001576] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001613] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001647] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001682] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.001716] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001749] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001808] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001851] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.001886] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.001932] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.001982] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.002029] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.002081] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.002130] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.002195] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.002255] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.002317] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.002375] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.002434] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.002495] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.002554] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.002603] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.002652] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.002700] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.002750] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.002837] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.002896] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.002944] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.002997] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.003048] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.003101] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.003153] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.003204] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.003259] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.003637] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.003750] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.003834] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.003877] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.003916] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.003978] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.004016] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.004051] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.004086] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.004121] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.004156] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.004194] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.004231] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.004268] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.004306] (-) JobUnselected: {'identifier': 'mtc_tutorial'}
+[0.004343] (-) JobUnselected: {'identifier': 'my_bridge'}
+[0.004380] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.004418] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.004455] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.004492] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.004530] (-) JobUnselected: {'identifier': 'robotiq_driver'}
+[0.004568] (-) JobUnselected: {'identifier': 'robotiq_hardware_tests'}
+[0.004606] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.004643] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.004708] (-) JobUnselected: {'identifier': 'serial'}
+[0.004756] (moveit_microros_bridge) JobQueued: {'identifier': 'moveit_microros_bridge', 'dependencies': OrderedDict()}
+[0.004837] (moveit_microros_bridge) JobStarted: {'identifier': 'moveit_microros_bridge'}
+[0.099916] (-) TimerEvent: {}
+[0.201048] (-) TimerEvent: {}
+[0.246899] (moveit_microros_bridge) JobProgress: {'identifier': 'moveit_microros_bridge', 'progress': 'cmake'}
+[0.284167] (moveit_microros_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/manuel/ws_moveit/src/moveit_microros_bridge', '-DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/moveit_microros_bridge'], 'cwd': '/home/manuel/ws_moveit/build/moveit_microros_bridge', 'env': OrderedDict({'USER': 'manuel', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/manuel', 'HOME': '/home/manuel', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/manuel/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3303', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2716a219d31c1413514cd0f068efba72', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/manuel/ws_moveit/install:/home/manuel/ws_moveit:/home/manuel/ws_moveit/src/install', 'LOGNAME': 'manuel', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'manuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manuel-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/3303,unix/manuel-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/3303', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a49c508_26d7_4b92_bb57_927503567104', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.131', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HP3WD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/manuel/ws_moveit/build/moveit_microros_bridge', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2716a219d31c1413514cd0f068efba72', 'PYTHONPATH': '/home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy'}), 'shell': False}
+[0.301587] (-) TimerEvent: {}
+[0.402013] (-) TimerEvent: {}
+[0.502467] (-) TimerEvent: {}
+[0.602949] (-) TimerEvent: {}
+[0.703438] (-) TimerEvent: {}
+[0.803922] (-) TimerEvent: {}
+[0.904568] (-) TimerEvent: {}
+[1.005020] (-) TimerEvent: {}
+[1.105460] (-) TimerEvent: {}
+[1.206259] (-) TimerEvent: {}
+[1.306721] (-) TimerEvent: {}
+[1.407401] (-) TimerEvent: {}
+[1.507905] (-) TimerEvent: {}
+[1.608331] (-) TimerEvent: {}
+[1.708806] (-) TimerEvent: {}
+[1.809261] (-) TimerEvent: {}
+[1.821826] (moveit_microros_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.909446] (-) TimerEvent: {}
+[2.010288] (-) TimerEvent: {}
+[2.110683] (-) TimerEvent: {}
+[2.211165] (-) TimerEvent: {}
+[2.311618] (-) TimerEvent: {}
+[2.412099] (-) TimerEvent: {}
+[2.512573] (-) TimerEvent: {}
+[2.613093] (-) TimerEvent: {}
+[2.713535] (-) TimerEvent: {}
+[2.746271] (moveit_microros_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.813651] (-) TimerEvent: {}
+[2.914075] (-) TimerEvent: {}
+[2.972978] (moveit_microros_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.014228] (-) TimerEvent: {}
+[3.114679] (-) TimerEvent: {}
+[3.215160] (-) TimerEvent: {}
+[3.236974] (moveit_microros_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.248128] (moveit_microros_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.249881] (moveit_microros_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.250798] (moveit_microros_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.271451] (moveit_microros_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.315272] (-) TimerEvent: {}
+[3.415604] (-) TimerEvent: {}
+[3.478048] (moveit_microros_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.514391] (moveit_microros_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.515319] (moveit_microros_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.515593] (-) TimerEvent: {}
+[3.517016] (moveit_microros_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.615787] (-) TimerEvent: {}
+[3.716196] (-) TimerEvent: {}
+[3.806251] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.816303] (-) TimerEvent: {}
+[3.916679] (-) TimerEvent: {}
+[4.017079] (-) TimerEvent: {}
+[4.117323] (-) TimerEvent: {}
+[4.127389] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.217436] (-) TimerEvent: {}
+[4.317807] (-) TimerEvent: {}
+[4.418232] (-) TimerEvent: {}
+[4.518868] (-) TimerEvent: {}
+[4.619541] (-) TimerEvent: {}
+[4.720229] (-) TimerEvent: {}
+[4.749281] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.820423] (-) TimerEvent: {}
+[4.920894] (-) TimerEvent: {}
+[5.021368] (-) TimerEvent: {}
+[5.083970] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.121545] (-) TimerEvent: {}
+[5.173891] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.221731] (-) TimerEvent: {}
+[5.297065] (moveit_microros_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.321879] (-) TimerEvent: {}
+[5.422382] (-) TimerEvent: {}
+[5.425160] (moveit_microros_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.522620] (-) TimerEvent: {}
+[5.623118] (-) TimerEvent: {}
+[5.723516] (-) TimerEvent: {}
+[5.823854] (-) TimerEvent: {}
+[5.924249] (-) TimerEvent: {}
+[5.938006] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.974859] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.024366] (-) TimerEvent: {}
+[6.124713] (-) TimerEvent: {}
+[6.225141] (-) TimerEvent: {}
+[6.325579] (-) TimerEvent: {}
+[6.426046] (-) TimerEvent: {}
+[6.526380] (-) TimerEvent: {}
+[6.626839] (-) TimerEvent: {}
+[6.727173] (-) TimerEvent: {}
+[6.778235] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[6.827298] (-) TimerEvent: {}
+[6.843723] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[6.879339] (moveit_microros_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.927404] (-) TimerEvent: {}
+[7.027844] (-) TimerEvent: {}
+[7.128283] (-) TimerEvent: {}
+[7.228736] (-) TimerEvent: {}
+[7.316085] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[7.328840] (-) TimerEvent: {}
+[7.429371] (-) TimerEvent: {}
+[7.529852] (-) TimerEvent: {}
+[7.629564] (moveit_microros_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[7.629913] (-) TimerEvent: {}
+[7.730130] (-) TimerEvent: {}
+[7.830482] (-) TimerEvent: {}
+[7.930963] (-) TimerEvent: {}
+[8.031248] (-) TimerEvent: {}
+[8.131532] (-) TimerEvent: {}
+[8.145346] (moveit_microros_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.145804] (moveit_microros_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.145949] (moveit_microros_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.151620] (moveit_microros_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.157983] (moveit_microros_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.158316] (moveit_microros_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.161331] (moveit_microros_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.169969] (moveit_microros_bridge) StdoutLine: {'line': b'-- Configuring done (7.4s)\n'}
+[8.219826] (moveit_microros_bridge) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[8.231647] (-) TimerEvent: {}
+[8.242128] (moveit_microros_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/manuel/ws_moveit/build/moveit_microros_bridge\n'}
+[8.259834] (moveit_microros_bridge) CommandEnded: {'returncode': 0}
+[8.260539] (moveit_microros_bridge) JobProgress: {'identifier': 'moveit_microros_bridge', 'progress': 'build'}
+[8.261456] (moveit_microros_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/manuel/ws_moveit/build/moveit_microros_bridge', '--', '-j8', '-l8'], 'cwd': '/home/manuel/ws_moveit/build/moveit_microros_bridge', 'env': OrderedDict({'USER': 'manuel', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/manuel', 'HOME': '/home/manuel', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/manuel/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3303', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2716a219d31c1413514cd0f068efba72', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/manuel/ws_moveit/install:/home/manuel/ws_moveit:/home/manuel/ws_moveit/src/install', 'LOGNAME': 'manuel', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'manuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manuel-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/3303,unix/manuel-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/3303', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a49c508_26d7_4b92_bb57_927503567104', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.131', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HP3WD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/manuel/ws_moveit/build/moveit_microros_bridge', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2716a219d31c1413514cd0f068efba72', 'PYTHONPATH': '/home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy'}), 'shell': False}
+[8.331767] (-) TimerEvent: {}
+[8.367017] (moveit_microros_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveit_microros_bridge.dir/src/moveit_microros_bridge.cpp.o\x1b[0m\n'}
+[8.431874] (-) TimerEvent: {}
+[8.532178] (-) TimerEvent: {}
+[8.632500] (-) TimerEvent: {}
+[8.732796] (-) TimerEvent: {}
+[8.833089] (-) TimerEvent: {}
+[8.933371] (-) TimerEvent: {}
+[9.033673] (-) TimerEvent: {}
+[9.133996] (-) TimerEvent: {}
+[9.234315] (-) TimerEvent: {}
+[9.334738] (-) TimerEvent: {}
+[9.435186] (-) TimerEvent: {}
+[9.535581] (-) TimerEvent: {}
+[9.635833] (-) TimerEvent: {}
+[9.736141] (-) TimerEvent: {}
+[9.836457] (-) TimerEvent: {}
+[9.936837] (-) TimerEvent: {}
+[10.037270] (-) TimerEvent: {}
+[10.137668] (-) TimerEvent: {}
+[10.238081] (-) TimerEvent: {}
+[10.338436] (-) TimerEvent: {}
+[10.438980] (-) TimerEvent: {}
+[10.539421] (-) TimerEvent: {}
+[10.639846] (-) TimerEvent: {}
+[10.740182] (-) TimerEvent: {}
+[10.840568] (-) TimerEvent: {}
+[10.940852] (-) TimerEvent: {}
+[11.041175] (-) TimerEvent: {}
+[11.141666] (-) TimerEvent: {}
+[11.241994] (-) TimerEvent: {}
+[11.342285] (-) TimerEvent: {}
+[11.442561] (-) TimerEvent: {}
+[11.542846] (-) TimerEvent: {}
+[11.643159] (-) TimerEvent: {}
+[11.743528] (-) TimerEvent: {}
+[11.843837] (-) TimerEvent: {}
+[11.944141] (-) TimerEvent: {}
+[12.044515] (-) TimerEvent: {}
+[12.144911] (-) TimerEvent: {}
+[12.245215] (-) TimerEvent: {}
+[12.345524] (-) TimerEvent: {}
+[12.445939] (-) TimerEvent: {}
+[12.546295] (-) TimerEvent: {}
+[12.646596] (-) TimerEvent: {}
+[12.746919] (-) TimerEvent: {}
+[12.847218] (-) TimerEvent: {}
+[12.947560] (-) TimerEvent: {}
+[13.048129] (-) TimerEvent: {}
+[13.148555] (-) TimerEvent: {}
+[13.248878] (-) TimerEvent: {}
+[13.349209] (-) TimerEvent: {}
+[13.449568] (-) TimerEvent: {}
+[13.549865] (-) TimerEvent: {}
+[13.650154] (-) TimerEvent: {}
+[13.750464] (-) TimerEvent: {}
+[13.850805] (-) TimerEvent: {}
+[13.951159] (-) TimerEvent: {}
+[14.051447] (-) TimerEvent: {}
+[14.151744] (-) TimerEvent: {}
+[14.252282] (-) TimerEvent: {}
+[14.352630] (-) TimerEvent: {}
+[14.453047] (-) TimerEvent: {}
+[14.553660] (-) TimerEvent: {}
+[14.654083] (-) TimerEvent: {}
+[14.754447] (-) TimerEvent: {}
+[14.854745] (-) TimerEvent: {}
+[14.955068] (-) TimerEvent: {}
+[15.055547] (-) TimerEvent: {}
+[15.155852] (-) TimerEvent: {}
+[15.256193] (-) TimerEvent: {}
+[15.356553] (-) TimerEvent: {}
+[15.456829] (-) TimerEvent: {}
+[15.557125] (-) TimerEvent: {}
+[15.657418] (-) TimerEvent: {}
+[15.757711] (-) TimerEvent: {}
+[15.858014] (-) TimerEvent: {}
+[15.958303] (-) TimerEvent: {}
+[16.058603] (-) TimerEvent: {}
+[16.158922] (-) TimerEvent: {}
+[16.259230] (-) TimerEvent: {}
+[16.359584] (-) TimerEvent: {}
+[16.459837] (-) TimerEvent: {}
+[16.560127] (-) TimerEvent: {}
+[16.660431] (-) TimerEvent: {}
+[16.760796] (-) TimerEvent: {}
+[16.861079] (-) TimerEvent: {}
+[16.961374] (-) TimerEvent: {}
+[17.061661] (-) TimerEvent: {}
+[17.161965] (-) TimerEvent: {}
+[17.262267] (-) TimerEvent: {}
+[17.362644] (-) TimerEvent: {}
+[17.463030] (-) TimerEvent: {}
+[17.563305] (-) TimerEvent: {}
+[17.663604] (-) TimerEvent: {}
+[17.763986] (-) TimerEvent: {}
+[17.864294] (-) TimerEvent: {}
+[17.964661] (-) TimerEvent: {}
+[18.065128] (-) TimerEvent: {}
+[18.165663] (-) TimerEvent: {}
+[18.265957] (-) TimerEvent: {}
+[18.366246] (-) TimerEvent: {}
+[18.466530] (-) TimerEvent: {}
+[18.566823] (-) TimerEvent: {}
+[18.667097] (-) TimerEvent: {}
+[18.767418] (-) TimerEvent: {}
+[18.867834] (-) TimerEvent: {}
+[18.968206] (-) TimerEvent: {}
+[19.068496] (-) TimerEvent: {}
+[19.168838] (-) TimerEvent: {}
+[19.269220] (-) TimerEvent: {}
+[19.369503] (-) TimerEvent: {}
+[19.469790] (-) TimerEvent: {}
+[19.570091] (-) TimerEvent: {}
+[19.670436] (-) TimerEvent: {}
+[19.770771] (-) TimerEvent: {}
+[19.871048] (-) TimerEvent: {}
+[19.971342] (-) TimerEvent: {}
+[20.071729] (-) TimerEvent: {}
+[20.172031] (-) TimerEvent: {}
+[20.272337] (-) TimerEvent: {}
+[20.372712] (-) TimerEvent: {}
+[20.473107] (-) TimerEvent: {}
+[20.573403] (-) TimerEvent: {}
+[20.673732] (-) TimerEvent: {}
+[20.774104] (-) TimerEvent: {}
+[20.874409] (-) TimerEvent: {}
+[20.974698] (-) TimerEvent: {}
+[21.075051] (-) TimerEvent: {}
+[21.175402] (-) TimerEvent: {}
+[21.275749] (-) TimerEvent: {}
+[21.376110] (-) TimerEvent: {}
+[21.476414] (-) TimerEvent: {}
+[21.576753] (-) TimerEvent: {}
+[21.677148] (-) TimerEvent: {}
+[21.777486] (-) TimerEvent: {}
+[21.877836] (-) TimerEvent: {}
+[21.978151] (-) TimerEvent: {}
+[22.078456] (-) TimerEvent: {}
+[22.178752] (-) TimerEvent: {}
+[22.279093] (-) TimerEvent: {}
+[22.379435] (-) TimerEvent: {}
+[22.479834] (-) TimerEvent: {}
+[22.580408] (-) TimerEvent: {}
+[22.680726] (-) TimerEvent: {}
+[22.781516] (-) TimerEvent: {}
+[22.882183] (-) TimerEvent: {}
+[22.982577] (-) TimerEvent: {}
+[23.082945] (-) TimerEvent: {}
+[23.183245] (-) TimerEvent: {}
+[23.220567] (moveit_microros_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveit_microros_bridge\x1b[0m\n'}
+[23.283374] (-) TimerEvent: {}
+[23.383706] (-) TimerEvent: {}
+[23.484121] (-) TimerEvent: {}
+[23.584591] (-) TimerEvent: {}
+[23.685053] (-) TimerEvent: {}
+[23.785715] (-) TimerEvent: {}
+[23.886228] (-) TimerEvent: {}
+[23.986904] (-) TimerEvent: {}
+[24.087255] (-) TimerEvent: {}
+[24.187548] (-) TimerEvent: {}
+[24.287829] (-) TimerEvent: {}
+[24.388108] (-) TimerEvent: {}
+[24.488396] (-) TimerEvent: {}
+[24.588703] (-) TimerEvent: {}
+[24.688991] (-) TimerEvent: {}
+[24.763041] (moveit_microros_bridge) StdoutLine: {'line': b'[100%] Built target moveit_microros_bridge\n'}
+[24.782585] (moveit_microros_bridge) CommandEnded: {'returncode': 0}
+[24.783343] (moveit_microros_bridge) JobProgress: {'identifier': 'moveit_microros_bridge', 'progress': 'install'}
+[24.789075] (-) TimerEvent: {}
+[24.800799] (moveit_microros_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/manuel/ws_moveit/build/moveit_microros_bridge'], 'cwd': '/home/manuel/ws_moveit/build/moveit_microros_bridge', 'env': OrderedDict({'USER': 'manuel', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/manuel', 'HOME': '/home/manuel', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/manuel/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3303', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2716a219d31c1413514cd0f068efba72', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/manuel/ws_moveit/install:/home/manuel/ws_moveit:/home/manuel/ws_moveit/src/install', 'LOGNAME': 'manuel', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'manuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manuel-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/3303,unix/manuel-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/3303', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a49c508_26d7_4b92_bb57_927503567104', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.131', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HP3WD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/manuel/ws_moveit/build/moveit_microros_bridge', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2716a219d31c1413514cd0f068efba72', 'PYTHONPATH': '/home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy'}), 'shell': False}
+[24.812094] (moveit_microros_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.812466] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/lib/moveit_microros_bridge/moveit_microros_bridge\n'}
+[24.819227] (moveit_microros_bridge) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/manuel/ws_moveit/install/moveit_microros_bridge/lib/moveit_microros_bridge/moveit_microros_bridge" to ""\n'}
+[24.819586] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/package_run_dependencies/moveit_microros_bridge\n'}
+[24.819867] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/parent_prefix_path/moveit_microros_bridge\n'}
+[24.820150] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/ament_prefix_path.sh\n'}
+[24.820484] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/ament_prefix_path.dsv\n'}
+[24.820793] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/path.sh\n'}
+[24.821018] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/path.dsv\n'}
+[24.821328] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.bash\n'}
+[24.821555] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.sh\n'}
+[24.821788] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.zsh\n'}
+[24.822010] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.dsv\n'}
+[24.822318] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/package.dsv\n'}
+[24.822548] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/packages/moveit_microros_bridge\n'}
+[24.822862] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/cmake/moveit_microros_bridgeConfig.cmake\n'}
+[24.823068] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/cmake/moveit_microros_bridgeConfig-version.cmake\n'}
+[24.823254] (moveit_microros_bridge) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/package.xml\n'}
+[24.825574] (moveit_microros_bridge) CommandEnded: {'returncode': 0}
+[24.889197] (-) TimerEvent: {}
+[24.989831] (-) TimerEvent: {}
+[25.071480] (moveit_microros_bridge) JobEnded: {'identifier': 'moveit_microros_bridge', 'rc': 0}
+[25.073734] (-) EventReactorShutdown: {}

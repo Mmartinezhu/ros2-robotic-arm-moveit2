@@ -1,0 +1,1 @@
+/home/manuel/ws_moveit/src/basic_arm2_description/launch/sim_gazebo.launch.py

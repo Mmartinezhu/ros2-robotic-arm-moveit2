@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/manuel/ws_moveit/build/moveit_microros_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/moveit_microros_bridge -- -j8 -l8
+[0.156s] [100%] Built target moveit_microros_bridge
+[0.183s] Invoked command in '/home/manuel/ws_moveit/build/moveit_microros_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/moveit_microros_bridge -- -j8 -l8
+[0.200s] Invoking command in '/home/manuel/ws_moveit/build/moveit_microros_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/moveit_microros_bridge
+[0.224s] -- Install configuration: ""
+[0.224s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/lib/moveit_microros_bridge/moveit_microros_bridge
+[0.224s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/package_run_dependencies/moveit_microros_bridge
+[0.225s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/parent_prefix_path/moveit_microros_bridge
+[0.225s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/ament_prefix_path.sh
+[0.225s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/ament_prefix_path.dsv
+[0.225s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/path.sh
+[0.225s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/path.dsv
+[0.225s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.bash
+[0.225s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.sh
+[0.226s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.zsh
+[0.226s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.dsv
+[0.226s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/package.dsv
+[0.226s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/packages/moveit_microros_bridge
+[0.226s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/cmake/moveit_microros_bridgeConfig.cmake
+[0.226s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/cmake/moveit_microros_bridgeConfig-version.cmake
+[0.226s] -- Up-to-date: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/package.xml
+[0.228s] Invoked command in '/home/manuel/ws_moveit/build/moveit_microros_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/moveit_microros_bridge

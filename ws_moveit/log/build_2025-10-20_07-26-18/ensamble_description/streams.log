@@ -1,0 +1,47 @@
+[0.019s] Invoking command in '/home/manuel/ws_moveit/build/ensamble_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/ensamble_description -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/ensamble_description
+[0.046s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.353s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.751s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.841s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.104s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.749s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.785s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.501s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.567s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.602s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.181s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[4.387s] -- Configuring done (4.3s)
+[4.468s] -- Generating done (0.0s)
+[4.476s] -- Build files have been written to: /home/manuel/ws_moveit/build/ensamble_description
+[4.500s] Invoked command in '/home/manuel/ws_moveit/build/ensamble_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/ensamble_description -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/ensamble_description
+[4.500s] Invoking command in '/home/manuel/ws_moveit/build/ensamble_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/ensamble_description -- -j8 -l8
+[4.585s] Invoked command in '/home/manuel/ws_moveit/build/ensamble_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/ensamble_description -- -j8 -l8
+[4.601s] Invoking command in '/home/manuel/ws_moveit/build/ensamble_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/ensamble_description
+[4.613s] -- Install configuration: ""
+[4.613s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes
+[4.614s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_2_1.stl
+[4.635s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_1 (1).stl
+[4.636s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_3_1.stl
+[4.640s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_2_1.stl
+[4.640s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_1_1.stl
+[4.641s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_4_1.stl
+[4.641s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/base_link.stl
+[4.641s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf
+[4.642s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.gazebo
+[4.642s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.xacro
+[4.642s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/materials.xacro
+[4.642s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.trans
+[4.643s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch
+[4.643s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/display.launch.py
+[4.643s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/gazebo.launch
+[4.643s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/controller.yaml
+[4.644s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/controller.launch
+[4.644s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/urdf.rviz
+[4.644s] [31mCMake Error at cmake_install.cmake:46 (file):
+[4.644s]   file INSTALL cannot find
+[4.644s]   "/home/manuel/ws_moveit/src/ensamble_description/config": No such file or
+[4.645s]   directory.
+[4.645s] 
+[4.645s] [0m
+[4.646s] Invoked command in '/home/manuel/ws_moveit/build/ensamble_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/ensamble_description

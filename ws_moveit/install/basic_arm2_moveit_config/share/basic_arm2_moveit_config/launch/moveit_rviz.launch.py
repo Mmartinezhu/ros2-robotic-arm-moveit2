@@ -1,0 +1,1 @@
+/home/manuel/ws_moveit/src/basic_arm2_moveit_config/launch/moveit_rviz.launch.py

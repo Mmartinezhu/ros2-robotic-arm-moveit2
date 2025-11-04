@@ -1,0 +1,266 @@
+[0.164s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'dummy_arm2_description', 'dummy_arm2_moveit_config']
+[0.164s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['dummy_arm2_description', 'dummy_arm2_moveit_config'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ed1787b4e00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ed1787b4a70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ed1787b4a70>>, mixin_verb=('build',))
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.246s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/manuel/ws_moveit/src'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_description) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'dummy_arm2_description' with type 'ros.catkin' and name 'dummy_arm2_description'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_arm2_moveit_config) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'dummy_arm2_moveit_config' with type 'ros.ament_cmake' and name 'dummy_arm2_moveit_config'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extension 'cmake'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extension 'python'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extensions ['python_setup_py']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor) by extension 'python_setup_py'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/capabilities) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'moveit_task_constructor/capabilities' with type 'ros.ament_cmake' and name 'moveit_task_constructor_capabilities'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/core) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'moveit_task_constructor/core' with type 'ros.ament_cmake' and name 'moveit_task_constructor_core'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/demo) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'moveit_task_constructor/demo' with type 'ros.ament_cmake' and name 'moveit_task_constructor_demo'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/msgs) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'moveit_task_constructor/msgs' with type 'ros.ament_cmake' and name 'moveit_task_constructor_msgs'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/rviz_marker_tools) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'moveit_task_constructor/rviz_marker_tools' with type 'ros.ament_cmake' and name 'rviz_marker_tools'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_task_constructor/visualization) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'moveit_task_constructor/visualization' with type 'ros.ament_cmake' and name 'moveit_task_constructor_visualization'
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.318s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_msgs' in 'moveit_task_constructor/msgs'
+[0.318s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rviz_marker_tools' in 'moveit_task_constructor/rviz_marker_tools'
+[0.318s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_core' in 'moveit_task_constructor/core'
+[0.318s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_capabilities' in 'moveit_task_constructor/capabilities'
+[0.318s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_visualization' in 'moveit_task_constructor/visualization'
+[0.318s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_demo' in 'moveit_task_constructor/demo'
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/manuel/ws_moveit/install
+[0.323s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 416 installed packages in /opt/ros/jazzy
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'dummy_arm2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manuel/ws_moveit/src/build/dummy_arm2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manuel/ws_moveit/src/install/dummy_arm2_description', 'merge_install': False, 'path': '/home/manuel/ws_moveit/src/dummy_arm2_description', 'symlink_install': True, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dummy_arm2_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'dummy_arm2_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config', 'merge_install': False, 'path': '/home/manuel/ws_moveit/src/dummy_arm2_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[0.399s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.400s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/manuel/ws_moveit/src/dummy_arm2_description' with build type 'catkin'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manuel/ws_moveit/src/dummy_arm2_description'
+[0.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake /home/manuel/ws_moveit/src/dummy_arm2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/src/install/dummy_arm2_description
+[1.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake /home/manuel/ws_moveit/src/dummy_arm2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/src/install/dummy_arm2_description
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake --build /home/manuel/ws_moveit/src/build/dummy_arm2_description -- -j8 -l8
+[1.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake --build /home/manuel/ws_moveit/src/build/dummy_arm2_description -- -j8 -l8
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake --install /home/manuel/ws_moveit/src/build/dummy_arm2_description
+[1.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake --install /home/manuel/ws_moveit/src/build/dummy_arm2_description
+[1.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_arm2_description', 'ros_package_path')
+[1.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/ros_package_path.ps1'
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/ros_package_path.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/ros_package_path.sh'
+[1.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_arm2_description', 'pkg_config_path')
+[1.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/pkg_config_path.ps1'
+[1.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/pkg_config_path.dsv'
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/pkg_config_path.sh'
+[1.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_arm2_description', 'pkg_config_path_multiarch')
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/pkg_config_path_multiarch.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/pkg_config_path_multiarch.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/pkg_config_path_multiarch.sh'
+[1.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy_arm2_description)
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_description' for CMake module files
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_description' for CMake config files
+[1.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_arm2_description', 'cmake_prefix_path')
+[1.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/cmake_prefix_path.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/cmake_prefix_path.dsv'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/hook/cmake_prefix_path.sh'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_description/bin'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/pkgconfig/dummy_arm2_description.pc'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/python3.12/site-packages'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_description/bin'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.ps1'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.sh'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.bash'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.zsh'
+[1.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manuel/ws_moveit/src/install/dummy_arm2_description/share/colcon-core/packages/dummy_arm2_description)
+[1.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manuel/ws_moveit/src/dummy_arm2_moveit_config' with build type 'ament_cmake'
+[1.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manuel/ws_moveit/src/dummy_arm2_moveit_config'
+[1.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/manuel/ws_moveit/src/install/dummy_arm2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/x86_64-linux-gnu/pkgconfig:/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/manuel/ws_moveit/src/dummy_arm2_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config
+[2.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/manuel/ws_moveit/src/install/dummy_arm2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/x86_64-linux-gnu/pkgconfig:/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/manuel/ws_moveit/src/dummy_arm2_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config
+[2.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/manuel/ws_moveit/src/install/dummy_arm2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/x86_64-linux-gnu/pkgconfig:/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config -- -j8 -l8
+[2.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/manuel/ws_moveit/src/install/dummy_arm2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/x86_64-linux-gnu/pkgconfig:/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config -- -j8 -l8
+[2.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/manuel/ws_moveit/src/install/dummy_arm2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/x86_64-linux-gnu/pkgconfig:/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config
+[3.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy_arm2_moveit_config)
+[3.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/manuel/ws_moveit/src/install/dummy_arm2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/x86_64-linux-gnu/pkgconfig:/home/manuel/ws_moveit/src/install/dummy_arm2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/manuel/ws_moveit/src/install/dummy_arm2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/manuel/ws_moveit/src/build/dummy_arm2_moveit_config
+[3.107s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config' for CMake module files
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config' for CMake config files
+[3.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_arm2_moveit_config', 'cmake_prefix_path')
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/hook/cmake_prefix_path.ps1'
+[3.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/hook/cmake_prefix_path.dsv'
+[3.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/hook/cmake_prefix_path.sh'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/bin'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/lib/pkgconfig/dummy_arm2_moveit_config.pc'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/lib/python3.12/site-packages'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/bin'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.ps1'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.dsv'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.sh'
+[3.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.bash'
+[3.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.zsh'
+[3.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/colcon-core/packages/dummy_arm2_moveit_config)
+[3.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy_arm2_moveit_config)
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config' for CMake module files
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config' for CMake config files
+[3.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_arm2_moveit_config', 'cmake_prefix_path')
+[3.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/hook/cmake_prefix_path.ps1'
+[3.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/hook/cmake_prefix_path.dsv'
+[3.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/hook/cmake_prefix_path.sh'
+[3.118s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/bin'
+[3.118s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/lib/pkgconfig/dummy_arm2_moveit_config.pc'
+[3.118s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/lib/python3.12/site-packages'
+[3.118s] Level 1:colcon.colcon_core.environment:checking '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/bin'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.ps1'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.dsv'
+[3.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.sh'
+[3.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.bash'
+[3.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/dummy_arm2_moveit_config/package.zsh'
+[3.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manuel/ws_moveit/src/install/dummy_arm2_moveit_config/share/colcon-core/packages/dummy_arm2_moveit_config)
+[3.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.121s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.138s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.159s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manuel/ws_moveit/src/install/local_setup.ps1'
+[3.162s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manuel/ws_moveit/src/install/_local_setup_util_ps1.py'
+[3.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manuel/ws_moveit/src/install/setup.ps1'
+[3.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manuel/ws_moveit/src/install/local_setup.sh'
+[3.169s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manuel/ws_moveit/src/install/_local_setup_util_sh.py'
+[3.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manuel/ws_moveit/src/install/setup.sh'
+[3.172s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manuel/ws_moveit/src/install/local_setup.bash'
+[3.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manuel/ws_moveit/src/install/setup.bash'
+[3.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manuel/ws_moveit/src/install/local_setup.zsh'
+[3.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manuel/ws_moveit/src/install/setup.zsh'

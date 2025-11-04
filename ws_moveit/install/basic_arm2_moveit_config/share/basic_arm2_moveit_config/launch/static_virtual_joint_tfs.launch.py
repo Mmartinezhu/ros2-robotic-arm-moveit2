@@ -1,0 +1,1 @@
+/home/manuel/ws_moveit/src/basic_arm2_moveit_config/launch/static_virtual_joint_tfs.launch.py

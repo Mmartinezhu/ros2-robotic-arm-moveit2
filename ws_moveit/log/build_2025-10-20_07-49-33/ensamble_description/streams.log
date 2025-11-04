@@ -1,0 +1,40 @@
+[0.017s] Invoking command in '/home/manuel/ws_moveit/build/ensamble_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/ensamble_description -- -j8 -l8
+[0.080s] Invoked command in '/home/manuel/ws_moveit/build/ensamble_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/ensamble_description -- -j8 -l8
+[0.094s] Invoking command in '/home/manuel/ws_moveit/build/ensamble_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/ensamble_description
+[0.105s] -- Install configuration: ""
+[0.105s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes
+[0.106s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_1.stl
+[0.106s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_2_1.stl
+[0.106s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_3_1.stl
+[0.106s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_2_1.stl
+[0.107s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_1_1.stl
+[0.107s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_4_1.stl
+[0.107s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/base_link.stl
+[0.107s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf
+[0.108s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.gazebo
+[0.108s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.xacro
+[0.108s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/materials.xacro
+[0.108s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.trans
+[0.109s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch
+[0.109s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/display.launch.py
+[0.109s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/gazebo.launch
+[0.109s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/controller.yaml
+[0.109s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/controller.launch
+[0.110s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/urdf.rviz
+[0.110s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/config
+[0.110s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ament_index/resource_index/package_run_dependencies/ensamble_description
+[0.110s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ament_index/resource_index/parent_prefix_path/ensamble_description
+[0.111s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/environment/ament_prefix_path.dsv
+[0.112s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/environment/path.sh
+[0.112s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/environment/path.dsv
+[0.112s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/local_setup.bash
+[0.112s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/local_setup.sh
+[0.112s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/local_setup.zsh
+[0.112s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/local_setup.dsv
+[0.113s] -- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/package.dsv
+[0.113s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ament_index/resource_index/packages/ensamble_description
+[0.113s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/cmake/ensamble_descriptionConfig.cmake
+[0.113s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/cmake/ensamble_descriptionConfig-version.cmake
+[0.113s] -- Up-to-date: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/package.xml
+[0.113s] Invoked command in '/home/manuel/ws_moveit/build/ensamble_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/ensamble_description

@@ -1,0 +1,1 @@
+/home/manuel/ws_moveit/build/basic_arm2_description/ament_cmake_environment_hooks/local_setup.sh

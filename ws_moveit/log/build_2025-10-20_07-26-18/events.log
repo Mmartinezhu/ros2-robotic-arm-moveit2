@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000785] (-) JobUnselected: {'identifier': 'arm_bridge'}
+[0.000877] (-) JobUnselected: {'identifier': 'arm_hardware'}
+[0.000926] (-) JobUnselected: {'identifier': 'basic_arm2_description'}
+[0.000966] (-) JobUnselected: {'identifier': 'basic_arm2_moveit_config'}
+[0.001004] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.001041] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.001076] (-) JobUnselected: {'identifier': 'dummy_arm2_description'}
+[0.001109] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.001143] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.001176] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.001210] (-) JobUnselected: {'identifier': 'kinova_gen3_lite_moveit_config'}
+[0.001244] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.001278] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.001312] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.001344] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.001377] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001410] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.001442] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.001511] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001572] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001607] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001640] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001673] (-) JobUnselected: {'identifier': 'moveit_microros_bridge'}
+[0.001706] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.001739] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001772] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001806] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001839] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.001877] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.001908] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.001950] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001983] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.002017] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.002050] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.002083] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.002116] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.002149] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.002183] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.002216] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.002248] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.002281] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.002314] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.002347] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.002380] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.002412] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.002445] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.003137] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.003178] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.003211] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.003244] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.003277] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.003310] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.003344] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.003378] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.003411] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.003444] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.003511] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.003547] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.003608] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.003643] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.003676] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.003709] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.003741] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.003774] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.003806] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.003839] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.003871] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.003904] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.003937] (-) JobUnselected: {'identifier': 'mtc_tutorial'}
+[0.003970] (-) JobUnselected: {'identifier': 'my_bridge'}
+[0.004002] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.004035] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.004068] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.004100] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.004133] (-) JobUnselected: {'identifier': 'robotiq_driver'}
+[0.004165] (-) JobUnselected: {'identifier': 'robotiq_hardware_tests'}
+[0.004198] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.004255] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.004290] (-) JobUnselected: {'identifier': 'serial'}
+[0.004330] (ensamble_description) JobQueued: {'identifier': 'ensamble_description', 'dependencies': OrderedDict()}
+[0.004376] (ensamble_description) JobStarted: {'identifier': 'ensamble_description'}
+[0.019491] (ensamble_description) JobProgress: {'identifier': 'ensamble_description', 'progress': 'cmake'}
+[0.020227] (ensamble_description) Command: {'cmd': ['/usr/bin/cmake', '/home/manuel/ws_moveit/src/ensamble_description', '-DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/ensamble_description'], 'cwd': '/home/manuel/ws_moveit/build/ensamble_description', 'env': OrderedDict({'USER': 'manuel', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/manuel', 'HOME': '/home/manuel', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/manuel/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2619', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/manuel/ws_moveit/install:/home/manuel/ws_moveit:/home/manuel/ws_moveit/src/install:/home/manuel/install', 'LOGNAME': 'manuel', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'manuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manuel-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/2577,unix/manuel-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/2577', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/63925844_1960_4d17_9431_b197735f0841', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.140', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SA4NE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manuel/ws_moveit/install/moveit_microros_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/manuel/ws_moveit/build/ensamble_description', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages:/home/manuel/install/my_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/manuel/ws_moveit/install/moveit_microros_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy'}), 'shell': False}
+[0.050347] (ensamble_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099632] (-) TimerEvent: {}
+[0.199967] (-) TimerEvent: {}
+[0.300241] (-) TimerEvent: {}
+[0.356964] (ensamble_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)\n'}
+[0.400328] (-) TimerEvent: {}
+[0.500630] (-) TimerEvent: {}
+[0.601005] (-) TimerEvent: {}
+[0.701384] (-) TimerEvent: {}
+[0.754897] (ensamble_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.801559] (-) TimerEvent: {}
+[0.844878] (ensamble_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.901690] (-) TimerEvent: {}
+[0.970266] (ensamble_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001833] (-) TimerEvent: {}
+[1.102531] (-) TimerEvent: {}
+[1.107622] (ensamble_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202959] (-) TimerEvent: {}
+[1.303664] (-) TimerEvent: {}
+[1.404107] (-) TimerEvent: {}
+[1.504580] (-) TimerEvent: {}
+[1.605053] (-) TimerEvent: {}
+[1.705510] (-) TimerEvent: {}
+[1.752814] (ensamble_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.789312] (ensamble_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.805883] (-) TimerEvent: {}
+[1.906580] (-) TimerEvent: {}
+[2.007052] (-) TimerEvent: {}
+[2.107687] (-) TimerEvent: {}
+[2.208163] (-) TimerEvent: {}
+[2.308679] (-) TimerEvent: {}
+[2.409146] (-) TimerEvent: {}
+[2.504850] (ensamble_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.509515] (-) TimerEvent: {}
+[2.570897] (ensamble_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.605764] (ensamble_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.609649] (-) TimerEvent: {}
+[2.709995] (-) TimerEvent: {}
+[2.810401] (-) TimerEvent: {}
+[2.910846] (-) TimerEvent: {}
+[3.011493] (-) TimerEvent: {}
+[3.112081] (-) TimerEvent: {}
+[3.212540] (-) TimerEvent: {}
+[3.312903] (-) TimerEvent: {}
+[3.413251] (-) TimerEvent: {}
+[3.513720] (-) TimerEvent: {}
+[3.614138] (-) TimerEvent: {}
+[3.714575] (-) TimerEvent: {}
+[3.815013] (-) TimerEvent: {}
+[3.915531] (-) TimerEvent: {}
+[4.015997] (-) TimerEvent: {}
+[4.116417] (-) TimerEvent: {}
+[4.185250] (ensamble_description) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)\n'}
+[4.216605] (-) TimerEvent: {}
+[4.317055] (-) TimerEvent: {}
+[4.390883] (ensamble_description) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.417241] (-) TimerEvent: {}
+[4.471874] (ensamble_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.480439] (ensamble_description) StdoutLine: {'line': b'-- Build files have been written to: /home/manuel/ws_moveit/build/ensamble_description\n'}
+[4.504092] (ensamble_description) CommandEnded: {'returncode': 0}
+[4.504515] (ensamble_description) JobProgress: {'identifier': 'ensamble_description', 'progress': 'build'}
+[4.504549] (ensamble_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/manuel/ws_moveit/build/ensamble_description', '--', '-j8', '-l8'], 'cwd': '/home/manuel/ws_moveit/build/ensamble_description', 'env': OrderedDict({'USER': 'manuel', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/manuel', 'HOME': '/home/manuel', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/manuel/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2619', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/manuel/ws_moveit/install:/home/manuel/ws_moveit:/home/manuel/ws_moveit/src/install:/home/manuel/install', 'LOGNAME': 'manuel', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'manuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manuel-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/2577,unix/manuel-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/2577', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/63925844_1960_4d17_9431_b197735f0841', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.140', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SA4NE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manuel/ws_moveit/install/moveit_microros_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/manuel/ws_moveit/build/ensamble_description', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages:/home/manuel/install/my_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/manuel/ws_moveit/install/moveit_microros_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy'}), 'shell': False}
+[4.517382] (-) TimerEvent: {}
+[4.588667] (ensamble_description) CommandEnded: {'returncode': 0}
+[4.589741] (ensamble_description) JobProgress: {'identifier': 'ensamble_description', 'progress': 'install'}
+[4.605144] (ensamble_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/manuel/ws_moveit/build/ensamble_description'], 'cwd': '/home/manuel/ws_moveit/build/ensamble_description', 'env': OrderedDict({'USER': 'manuel', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/manuel', 'HOME': '/home/manuel', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/manuel/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2619', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/manuel/ws_moveit/install:/home/manuel/ws_moveit:/home/manuel/ws_moveit/src/install:/home/manuel/install', 'LOGNAME': 'manuel', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'manuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manuel-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/2577,unix/manuel-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/2577', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/63925844_1960_4d17_9431_b197735f0841', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.140', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SA4NE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manuel/ws_moveit/install/moveit_microros_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/manuel/ws_moveit/build/ensamble_description', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages:/home/manuel/install/my_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/manuel/ws_moveit/install/moveit_microros_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy'}), 'shell': False}
+[4.617098] (ensamble_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.617492] (-) TimerEvent: {}
+[4.617671] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes\n'}
+[4.617883] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_2_1.stl\n'}
+[4.639294] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_1 (1).stl\n'}
+[4.639920] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_3_1.stl\n'}
+[4.644171] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_2_1.stl\n'}
+[4.644476] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_1_1.stl\n'}
+[4.644729] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_4_1.stl\n'}
+[4.645007] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/base_link.stl\n'}
+[4.645542] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf\n'}
+[4.645827] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.gazebo\n'}
+[4.646073] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.xacro\n'}
+[4.646346] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/materials.xacro\n'}
+[4.646582] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.trans\n'}
+[4.646897] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch\n'}
+[4.647181] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/display.launch.py\n'}
+[4.647383] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/gazebo.launch\n'}
+[4.647598] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/controller.yaml\n'}
+[4.647788] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/controller.launch\n'}
+[4.647969] (ensamble_description) StdoutLine: {'line': b'-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/urdf.rviz\n'}
+[4.648150] (ensamble_description) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:46 (file):\n'}
+[4.648377] (ensamble_description) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[4.648599] (ensamble_description) StderrLine: {'line': b'  "/home/manuel/ws_moveit/src/ensamble_description/config": No such file or\n'}
+[4.648786] (ensamble_description) StderrLine: {'line': b'  directory.\n'}
+[4.648965] (ensamble_description) StderrLine: {'line': b'\n'}
+[4.649225] (ensamble_description) StderrLine: {'line': b'\x1b[0m\n'}
+[4.650304] (ensamble_description) CommandEnded: {'returncode': 1}
+[4.672770] (ensamble_description) JobEnded: {'identifier': 'ensamble_description', 'rc': 1}
+[4.683884] (-) EventReactorShutdown: {}

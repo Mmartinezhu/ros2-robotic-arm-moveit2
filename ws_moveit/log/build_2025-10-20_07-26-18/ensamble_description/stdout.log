@@ -1,0 +1,35 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+-- Configuring done (4.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manuel/ws_moveit/build/ensamble_description
+-- Install configuration: ""
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_2_1.stl
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_1 (1).stl
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_3_1.stl
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_2_1.stl
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/grip_1_1.stl
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/joint_4_1.stl
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/meshes/base_link.stl
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.gazebo
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.xacro
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/materials.xacro
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/urdf/ensamble.trans
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/display.launch.py
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/gazebo.launch
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/controller.yaml
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/controller.launch
+-- Installing: /home/manuel/ws_moveit/install/ensamble_description/share/ensamble_description/launch/urdf.rviz

@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/my_bridge/my_bridge.egg-info
+writing ../build/my_bridge/my_bridge.egg-info/PKG-INFO
+writing dependency_links to ../build/my_bridge/my_bridge.egg-info/dependency_links.txt
+writing entry points to ../build/my_bridge/my_bridge.egg-info/entry_points.txt
+writing requirements to ../build/my_bridge/my_bridge.egg-info/requires.txt
+writing top-level names to ../build/my_bridge/my_bridge.egg-info/top_level.txt
+writing manifest file '../build/my_bridge/my_bridge.egg-info/SOURCES.txt'
+reading manifest file '../build/my_bridge/my_bridge.egg-info/SOURCES.txt'
+writing manifest file '../build/my_bridge/my_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/manuel/ws_moveit/src/build/my_bridge/build
+creating /home/manuel/ws_moveit/src/build/my_bridge/build/lib
+creating /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge
+copying my_bridge/__init__.py -> /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge
+copying my_bridge/joint_states_to_delta_int.py -> /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge
+running install
+running install_lib
+creating /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge
+copying /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge/__init__.py -> /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge
+copying /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge/joint_states_to_delta_int.py -> /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge
+byte-compiling /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge/joint_states_to_delta_int.py to joint_states_to_delta_int.cpython-312.pyc
+running install_data
+creating /home/manuel/ws_moveit/src/install/my_bridge/share/ament_index
+creating /home/manuel/ws_moveit/src/install/my_bridge/share/ament_index/resource_index
+creating /home/manuel/ws_moveit/src/install/my_bridge/share/ament_index/resource_index/packages
+copying resource/my_bridge -> /home/manuel/ws_moveit/src/install/my_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/manuel/ws_moveit/src/install/my_bridge/share/my_bridge
+running install_egg_info
+Copying ../build/my_bridge/my_bridge.egg-info to /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge-0.0.0-py3.12.egg-info
+running install_scripts
+Installing joint_states_to_delta_int script to /home/manuel/ws_moveit/src/install/my_bridge/lib/my_bridge
+writing list of installed files to '/home/manuel/ws_moveit/src/build/my_bridge/install.log'

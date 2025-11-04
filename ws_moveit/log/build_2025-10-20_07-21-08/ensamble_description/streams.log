@@ -1,0 +1,50 @@
+[0.105s] Invoking command in '/home/manuel/ws_moveit/build/ensamble_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/ensamble_description -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/ensamble_description
+[1.288s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.288s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.288s]   CMake.
+[1.288s] 
+[1.289s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.289s]   CMake that the project does not need compatibility with older versions.
+[1.289s] 
+[1.289s] [0m
+[1.617s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.494s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[2.668s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[2.669s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[2.669s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[2.670s]   set the policy and suppress this warning.
+[2.670s] 
+[2.670s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[2.671s]   Since the policy is not set the OLD behavior will be used.
+[2.671s] Call Stack (most recent call first):
+[2.671s]   /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[2.672s]   /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[2.672s]   /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.673s]   /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[2.673s]   /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.673s]   /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[2.673s]   /opt/ros/jazzy/share/robot_state_publisher/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.674s]   /opt/ros/jazzy/share/robot_state_publisher/cmake/robot_state_publisherConfig.cmake:41 (include)
+[2.674s]   CMakeLists.txt:5 (find_package)
+[2.674s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.675s] [0m
+[2.675s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[2.675s]   if given arguments:
+[2.675s] 
+[2.675s]     "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"
+[2.676s] 
+[2.676s]   Unknown arguments specified
+[2.676s] Call Stack (most recent call first):
+[2.676s]   /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[2.676s]   /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[2.676s]   /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.676s]   /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[2.676s]   /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.676s]   /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[2.677s]   /opt/ros/jazzy/share/robot_state_publisher/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.677s]   /opt/ros/jazzy/share/robot_state_publisher/cmake/robot_state_publisherConfig.cmake:41 (include)
+[2.677s]   CMakeLists.txt:5 (find_package)
+[2.677s] 
+[2.677s] [0m
+[2.677s] -- Configuring incomplete, errors occurred!
+[2.682s] Invoked command in '/home/manuel/ws_moveit/build/ensamble_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/ensamble_description -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/ensamble_description

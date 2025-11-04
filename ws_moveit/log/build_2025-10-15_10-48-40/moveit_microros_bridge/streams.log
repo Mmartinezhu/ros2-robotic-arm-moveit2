@@ -1,0 +1,63 @@
+[0.281s] Invoking command in '/home/manuel/ws_moveit/build/moveit_microros_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/moveit_microros_bridge -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/moveit_microros_bridge
+[1.817s] -- The C compiler identification is GNU 13.3.0
+[2.742s] -- The CXX compiler identification is GNU 13.3.0
+[2.969s] -- Detecting C compiler ABI info
+[3.232s] -- Detecting C compiler ABI info - done
+[3.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.245s] -- Detecting C compile features
+[3.246s] -- Detecting C compile features - done
+[3.267s] -- Detecting CXX compiler ABI info
+[3.473s] -- Detecting CXX compiler ABI info - done
+[3.510s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.511s] -- Detecting CXX compile features
+[3.512s] -- Detecting CXX compile features - done
+[3.802s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.123s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.745s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.079s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.169s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.933s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.970s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.774s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.839s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.875s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.311s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[7.625s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.141s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.141s] -- Configured cppcheck include dirs: 
+[8.141s] -- Configured cppcheck exclude dirs and/or files: 
+[8.147s] -- Added test 'lint_cmake' to check CMake code style
+[8.153s] -- Added test 'uncrustify' to check C / C++ code style
+[8.154s] -- Configured uncrustify additional arguments: 
+[8.157s] -- Added test 'xmllint' to check XML markup files
+[8.165s] -- Configuring done (7.4s)
+[8.215s] -- Generating done (0.0s)
+[8.237s] -- Build files have been written to: /home/manuel/ws_moveit/build/moveit_microros_bridge
+[8.255s] Invoked command in '/home/manuel/ws_moveit/build/moveit_microros_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/moveit_microros_bridge -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/moveit_microros_bridge
+[8.257s] Invoking command in '/home/manuel/ws_moveit/build/moveit_microros_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/moveit_microros_bridge -- -j8 -l8
+[8.362s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_microros_bridge.dir/src/moveit_microros_bridge.cpp.o[0m
+[23.216s] [100%] [32m[1mLinking CXX executable moveit_microros_bridge[0m
+[24.758s] [100%] Built target moveit_microros_bridge
+[24.778s] Invoked command in '/home/manuel/ws_moveit/build/moveit_microros_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/moveit_microros_bridge -- -j8 -l8
+[24.796s] Invoking command in '/home/manuel/ws_moveit/build/moveit_microros_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/moveit_microros_bridge
+[24.808s] -- Install configuration: ""
+[24.808s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/lib/moveit_microros_bridge/moveit_microros_bridge
+[24.815s] -- Set non-toolchain portion of runtime path of "/home/manuel/ws_moveit/install/moveit_microros_bridge/lib/moveit_microros_bridge/moveit_microros_bridge" to ""
+[24.815s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/package_run_dependencies/moveit_microros_bridge
+[24.815s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/parent_prefix_path/moveit_microros_bridge
+[24.816s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/ament_prefix_path.sh
+[24.816s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/ament_prefix_path.dsv
+[24.816s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/path.sh
+[24.816s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/environment/path.dsv
+[24.817s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.bash
+[24.817s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.sh
+[24.817s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.zsh
+[24.817s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/local_setup.dsv
+[24.818s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/package.dsv
+[24.818s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/ament_index/resource_index/packages/moveit_microros_bridge
+[24.818s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/cmake/moveit_microros_bridgeConfig.cmake
+[24.818s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/cmake/moveit_microros_bridgeConfig-version.cmake
+[24.819s] -- Installing: /home/manuel/ws_moveit/install/moveit_microros_bridge/share/moveit_microros_bridge/package.xml
+[24.821s] Invoked command in '/home/manuel/ws_moveit/build/moveit_microros_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/ws_moveit/src/install/my_bridge:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/moveit_microros_bridge

@@ -1,0 +1,76 @@
+[0.016s] Invoking command in '/home/manuel/ws_moveit/build/basic_arm2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/basic_arm2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/basic_arm2_description
+[0.124s] -- The C compiler identification is GNU 13.3.0
+[0.217s] -- The CXX compiler identification is GNU 13.3.0
+[0.259s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.474s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.476s] -- Detecting C compile features - done
+[0.507s] -- Detecting CXX compiler ABI info
+[0.689s] -- Detecting CXX compiler ABI info - done
+[0.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.701s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.708s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.924s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.034s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.145s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[1.217s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.242s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.446s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.452s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.651s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.687s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.721s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.151s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[2.285s] -- Configuring done (2.2s)
+[2.292s] -- Generating done (0.0s)
+[2.295s] -- Build files have been written to: /home/manuel/ws_moveit/build/basic_arm2_description
+[2.312s] Invoked command in '/home/manuel/ws_moveit/build/basic_arm2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/basic_arm2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/basic_arm2_description
+[2.316s] Invoking command in '/home/manuel/ws_moveit/build/basic_arm2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/basic_arm2_description -- -j8 -l8
+[2.387s] Invoked command in '/home/manuel/ws_moveit/build/basic_arm2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/basic_arm2_description -- -j8 -l8
+[2.403s] Invoking command in '/home/manuel/ws_moveit/build/basic_arm2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/basic_arm2_description
+[2.421s] -- Install configuration: ""
+[2.422s] -- Execute custom install script
+[2.422s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/Componente2_1(1).stl
+[2.445s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/Componente2_1.stl
+[2.458s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/Componente3_1(1).stl
+[2.472s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/Componente3_1.stl
+[2.486s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/Componente4_1(1).stl
+[2.502s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/Componente4_1.stl
+[2.525s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/Componente5_1(1).stl
+[2.545s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/Componente5_1.stl
+[2.561s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/base_link(1).stl
+[2.575s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/meshes/base_link.stl
+[2.600s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/urdf/basic_arm2(1).gazebo
+[2.617s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/urdf/basic_arm2(1).trans
+[2.632s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/urdf/basic_arm2(1).xacro
+[2.647s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/urdf/basic_arm2.gazebo
+[2.661s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/urdf/basic_arm2.trans
+[2.676s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/urdf/basic_arm2.xacro
+[2.698s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/urdf/materials(1).xacro
+[2.721s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/urdf/materials.xacro
+[2.745s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/launch/controller.launch
+[2.760s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/launch/controller.yaml
+[2.777s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/launch/display.launch.py
+[2.803s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/launch/gazebo.launch.py
+[2.820s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/launch/sim_gazebo.launch.py
+[2.835s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/launch/urdf.rviz
+[2.851s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/ament_index/resource_index/package_run_dependencies/basic_arm2_description
+[2.878s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/ament_index/resource_index/parent_prefix_path/basic_arm2_description
+[2.893s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/environment/ament_prefix_path.sh
+[2.909s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/environment/ament_prefix_path.dsv
+[2.931s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/environment/path.sh
+[2.946s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/environment/path.dsv
+[2.962s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/local_setup.bash
+[2.978s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/local_setup.sh
+[3.005s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/local_setup.zsh
+[3.020s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/local_setup.dsv
+[3.035s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/package.dsv
+[3.053s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/ament_index/resource_index/packages/basic_arm2_description
+[3.077s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/cmake/basic_arm2_descriptionConfig.cmake
+[3.092s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/cmake/basic_arm2_descriptionConfig-version.cmake
+[3.107s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_description/share/basic_arm2_description/package.xml
+[3.133s] Invoked command in '/home/manuel/ws_moveit/build/basic_arm2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/basic_arm2_description

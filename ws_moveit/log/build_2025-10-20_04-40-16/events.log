@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000851] (-) JobUnselected: {'identifier': 'arm_bridge'}
+[0.000924] (-) JobUnselected: {'identifier': 'arm_hardware'}
+[0.000970] (-) JobUnselected: {'identifier': 'basic_arm2_description'}
+[0.001009] (-) JobUnselected: {'identifier': 'basic_arm2_moveit_config'}
+[0.001045] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.001081] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.001114] (-) JobUnselected: {'identifier': 'dummy_arm2_description'}
+[0.001148] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.001181] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.001214] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.001247] (-) JobUnselected: {'identifier': 'kinova_gen3_lite_moveit_config'}
+[0.001281] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.001315] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.001348] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.001380] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.001413] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001446] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.001479] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.001512] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001626] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001663] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001695] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001725] (-) JobUnselected: {'identifier': 'moveit_microros_bridge'}
+[0.001755] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.001785] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001816] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001847] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001877] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.001908] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.001938] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.001968] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001999] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.002029] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.002059] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.002089] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.002119] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.002150] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.002181] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.002211] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.002241] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.002271] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.002302] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.002332] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.002361] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.002391] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.002421] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.002451] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.002481] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.002511] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.002561] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.002603] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.002634] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.002664] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.002695] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.002725] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.002755] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.002786] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.002817] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.002867] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.002899] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.002929] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.002959] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.002989] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.003019] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.003049] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.003079] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.003108] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.003138] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.003168] (-) JobUnselected: {'identifier': 'mtc_tutorial'}
+[0.003198] (-) JobUnselected: {'identifier': 'my_bridge'}
+[0.003227] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.003258] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.003288] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.003317] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.003347] (-) JobUnselected: {'identifier': 'robotiq_driver'}
+[0.003377] (-) JobUnselected: {'identifier': 'robotiq_hardware_tests'}
+[0.003407] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.003459] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.003491] (-) JobUnselected: {'identifier': 'serial'}
+[0.003544] (ensamble_description) JobQueued: {'identifier': 'ensamble_description', 'dependencies': OrderedDict()}
+[0.003597] (ensamble_description) JobStarted: {'identifier': 'ensamble_description'}
+[0.099624] (-) TimerEvent: {}
+[0.200067] (-) TimerEvent: {}
+[0.285375] (ensamble_description) JobProgress: {'identifier': 'ensamble_description', 'progress': 'cmake'}
+[0.286466] (ensamble_description) Command: {'cmd': ['/usr/bin/cmake', '/home/manuel/ws_moveit/src/ensamble_description', '-DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/ensamble_description'], 'cwd': '/home/manuel/ws_moveit/build/ensamble_description', 'env': OrderedDict({'USER': 'manuel', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/manuel', 'HOME': '/home/manuel', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/manuel/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2438', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/manuel/ws_moveit/install:/home/manuel/ws_moveit:/home/manuel/ws_moveit/src/install:/home/manuel/install', 'LOGNAME': 'manuel', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'manuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manuel-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/2395,unix/manuel-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/2395', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6085eb51_f14b_4b68_9cb1_be95693c7d34', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.163', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PX0YE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manuel/ws_moveit/install/moveit_microros_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/manuel/ws_moveit/build/ensamble_description', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages:/home/manuel/install/my_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/manuel/ws_moveit/install/moveit_microros_bridge:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/manuel/ws_moveit/src/install/my_bridge:/home/manuel/install/my_bridge:/opt/ros/jazzy'}), 'shell': False}
+[0.300159] (-) TimerEvent: {}
+[0.400602] (-) TimerEvent: {}
+[0.501284] (-) TimerEvent: {}
+[0.601777] (-) TimerEvent: {}
+[0.702218] (-) TimerEvent: {}
+[0.788329] (ensamble_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.788828] (ensamble_description) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.789046] (ensamble_description) StderrLine: {'line': b'  CMake.\n'}
+[0.789241] (ensamble_description) StderrLine: {'line': b'\n'}
+[0.789435] (ensamble_description) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.789667] (ensamble_description) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.789870] (ensamble_description) StderrLine: {'line': b'\n'}
+[0.790062] (ensamble_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.802394] (-) TimerEvent: {}
+[0.902867] (-) TimerEvent: {}
+[1.003293] (-) TimerEvent: {}
+[1.103696] (-) TimerEvent: {}
+[1.204134] (-) TimerEvent: {}
+[1.304676] (-) TimerEvent: {}
+[1.405095] (-) TimerEvent: {}
+[1.505547] (-) TimerEvent: {}
+[1.605930] (-) TimerEvent: {}
+[1.706313] (-) TimerEvent: {}
+[1.806809] (-) TimerEvent: {}
+[1.811388] (ensamble_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.906948] (-) TimerEvent: {}
+[2.007354] (-) TimerEvent: {}
+[2.107859] (-) TimerEvent: {}
+[2.208319] (-) TimerEvent: {}
+[2.308816] (-) TimerEvent: {}
+[2.409508] (-) TimerEvent: {}
+[2.510008] (-) TimerEvent: {}
+[2.610460] (-) TimerEvent: {}
+[2.684859] (ensamble_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.710615] (-) TimerEvent: {}
+[2.802251] (ensamble_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.810717] (-) TimerEvent: {}
+[2.911064] (-) TimerEvent: {}
+[3.011388] (-) TimerEvent: {}
+[3.111843] (-) TimerEvent: {}
+[3.118866] (ensamble_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.155850] (ensamble_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.158222] (ensamble_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.202632] (ensamble_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.211939] (-) TimerEvent: {}
+[3.235312] (ensamble_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.312048] (-) TimerEvent: {}
+[3.412329] (-) TimerEvent: {}
+[3.456488] (ensamble_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.494908] (ensamble_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.495990] (ensamble_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.497881] (ensamble_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.512427] (-) TimerEvent: {}
+[3.612838] (-) TimerEvent: {}
+[3.713227] (-) TimerEvent: {}
+[3.812216] (ensamble_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.813309] (-) TimerEvent: {}
+[3.913689] (-) TimerEvent: {}
+[4.014294] (-) TimerEvent: {}
+[4.114857] (-) TimerEvent: {}
+[4.136163] (ensamble_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.215205] (-) TimerEvent: {}
+[4.315822] (-) TimerEvent: {}
+[4.416508] (-) TimerEvent: {}
+[4.517018] (-) TimerEvent: {}
+[4.617659] (-) TimerEvent: {}
+[4.718030] (-) TimerEvent: {}
+[4.768222] (ensamble_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)\n'}
+[4.818127] (-) TimerEvent: {}
+[4.918561] (-) TimerEvent: {}
+[4.999760] (ensamble_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[5.000079] (ensamble_description) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[5.000271] (ensamble_description) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[5.000453] (ensamble_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[5.000654] (ensamble_description) StderrLine: {'line': b'\n'}
+[5.000834] (ensamble_description) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[5.001012] (ensamble_description) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[5.001191] (ensamble_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.001367] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[5.001572] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[5.001788] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[5.001968] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[5.002143] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[5.002320] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[5.002496] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/robot_state_publisher/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[5.002712] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/robot_state_publisher/cmake/robot_state_publisherConfig.cmake:41 (include)\n'}
+[5.002895] (ensamble_description) StderrLine: {'line': b'  CMakeLists.txt:5 (find_package)\n'}
+[5.003071] (ensamble_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.003246] (ensamble_description) StderrLine: {'line': b'\x1b[0m\n'}
+[5.003423] (ensamble_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[5.003643] (ensamble_description) StderrLine: {'line': b'  if given arguments:\n'}
+[5.003845] (ensamble_description) StderrLine: {'line': b'\n'}
+[5.004029] (ensamble_description) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"\n'}
+[5.004235] (ensamble_description) StderrLine: {'line': b'\n'}
+[5.004413] (ensamble_description) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[5.004616] (ensamble_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.004809] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[5.004986] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[5.005190] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[5.005367] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[5.005574] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[5.005782] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[5.005979] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/robot_state_publisher/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[5.006160] (ensamble_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/robot_state_publisher/cmake/robot_state_publisherConfig.cmake:41 (include)\n'}
+[5.006336] (ensamble_description) StderrLine: {'line': b'  CMakeLists.txt:5 (find_package)\n'}
+[5.006513] (ensamble_description) StderrLine: {'line': b'\n'}
+[5.006747] (ensamble_description) StderrLine: {'line': b'\x1b[0m\n'}
+[5.006927] (ensamble_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.008955] (ensamble_description) CommandEnded: {'returncode': 1}
+[5.018647] (-) TimerEvent: {}
+[5.119040] (-) TimerEvent: {}
+[5.219660] (-) TimerEvent: {}
+[5.320063] (-) TimerEvent: {}
+[5.378850] (ensamble_description) JobEnded: {'identifier': 'ensamble_description', 'rc': 1}
+[5.389732] (-) EventReactorShutdown: {}

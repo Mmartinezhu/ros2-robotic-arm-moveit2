@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b32ff7463cb36d4afe21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_microros_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_microros_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_microros_bridge-ef5da5aea7ba592c18bc.json",
+					"name" : "moveit_microros_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_microros_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_microros_bridge_uninstall-0340bb5bbdc70bc28158.json",
+					"name" : "moveit_microros_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-89c7aa4f9438822bf44a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/manuel/ws_moveit/build/moveit_microros_bridge",
+		"source" : "/home/manuel/ws_moveit/src/moveit_microros_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

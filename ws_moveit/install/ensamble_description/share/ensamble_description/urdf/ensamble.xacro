@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<robot name="ensamble" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find ensamble_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find ensamble_description)/urdf/ensamble.trans" />
+<xacro:include filename="$(find ensamble_description)/urdf/ensamble.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.018062993633405452 -0.061445461637933574 -0.016838094048055165" rpy="0 0 0"/>
+    <mass value="0.6226212307110504"/>
+    <inertia ixx="0.002381" iyy="0.001814" izz="0.00387" ixy="-5.5e-05" iyz="5.1e-05" ixz="4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_3_1">
+  <inertial>
+    <origin xyz="-0.004901547955593662 0.013635029504389592 0.030708600175484907" rpy="0 0 0"/>
+    <mass value="0.5714773203641688"/>
+    <inertia ixx="0.006203" iyy="0.006376" izz="0.003318" ixy="0.001394" iyz="-0.002198" ixz="0.002631"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.010251 0.008269 -0.131683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/joint_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.010251 0.008269 -0.131683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/joint_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_2_1">
+  <inertial>
+    <origin xyz="0.0005319435491576534 0.0011958888669726872 0.049346478623292486" rpy="0 0 0"/>
+    <mass value="1.4891551226813797"/>
+    <inertia ixx="0.007652" iyy="0.007661" izz="0.002421" ixy="4.6e-05" iyz="-2.7e-05" ixz="-4.3e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.017032 0.050272 -0.013721" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/joint_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.017032 0.050272 -0.013721" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/joint_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_4_1">
+  <inertial>
+    <origin xyz="-0.07564243729224844 0.19732174720329865 0.00799279802414049" rpy="0 0 0"/>
+    <mass value="0.15734277402056587"/>
+    <inertia ixx="0.000333" iyy="0.000516" izz="0.000506" ixy="0.000226" iyz="-0.000127" ixz="0.000187"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.08027 0.10918 -0.341522" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/joint_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.08027 0.10918 -0.341522" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/joint_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="grip_1">
+  <inertial>
+    <origin xyz="-0.04307745639665925 0.025103699070441382 0.022836903089168692" rpy="0 0 0"/>
+    <mass value="0.0855750428750047"/>
+    <inertia ixx="5.7e-05" iyy="8.2e-05" izz="5.9e-05" ixy="1.4e-05" iyz="-1.6e-05" ixz="2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.221894 -0.132896 -0.403175" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/grip_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.221894 -0.132896 -0.403175" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/grip_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="grip_1_1">
+  <inertial>
+    <origin xyz="-0.21618736229427576 0.753581703129883 -0.05361663758654145" rpy="0 0 0"/>
+    <mass value="0.005879723714552655"/>
+    <inertia ixx="1e-06" iyy="2e-06" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.074892 0.567926 -0.512515" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/grip_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.074892 0.567926 -0.512515" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/grip_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="grip_2_1">
+  <inertial>
+    <origin xyz="-0.242428568853213 0.7704857335695577 -0.0439725057531839" rpy="0 0 0"/>
+    <mass value="0.005879723674171017"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.053852 0.589738 -0.500571" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/grip_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.053852 0.589738 -0.500571" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ensamble_description/meshes/grip_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="rev_2" type="continuous">
+  <origin xyz="0.027283 0.042003 0.117962" rpy="0 0 0"/>
+  <parent link="joint_2_1"/>
+  <child link="joint_3_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="rev_1 " type="continuous">
+  <origin xyz="-0.017032 -0.050272 0.013721" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="joint_2_1"/>
+  <axis xyz="-0.000238 -0.012882 -0.999917"/>
+</joint>
+
+<joint name="rev_3" type="continuous">
+  <origin xyz="-0.090521 -0.100911 0.209839" rpy="0 0 0"/>
+  <parent link="joint_3_1"/>
+  <child link="joint_4_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="rev_4" type="continuous">
+  <origin xyz="-0.141624 0.242076 0.061653" rpy="0 0 0"/>
+  <parent link="joint_4_1"/>
+  <child link="grip_1"/>
+  <axis xyz="-0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Corredera 7" type="prismatic">
+  <origin xyz="0.147002 -0.700822 0.10934" rpy="0 0 0"/>
+  <parent link="grip_1"/>
+  <child link="grip_1_1"/>
+  <axis xyz="-0.629709 -0.079259 -0.772777"/>
+  <limit upper="0.01" lower="-0.013" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Corredera 8" type="prismatic">
+  <origin xyz="0.168042 -0.722634 0.097396" rpy="0 0 0"/>
+  <parent link="grip_1"/>
+  <child link="grip_2_1"/>
+  <axis xyz="-0.629709 -0.079259 -0.772777"/>
+  <limit upper="0.01" lower="-0.012" effort="100" velocity="100"/>
+</joint>
+
+</robot>

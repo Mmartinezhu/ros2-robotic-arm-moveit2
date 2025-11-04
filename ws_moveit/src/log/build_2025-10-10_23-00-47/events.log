@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000841] (-) JobUnselected: {'identifier': 'arm_bridge'}
+[0.000949] (-) JobUnselected: {'identifier': 'arm_hardware'}
+[0.001032] (-) JobUnselected: {'identifier': 'basic_arm2_description'}
+[0.001332] (-) JobUnselected: {'identifier': 'basic_arm2_moveit_config'}
+[0.001403] (-) JobUnselected: {'identifier': 'dummy_arm2_description'}
+[0.001462] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001516] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001574] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001844] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001926] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.002208] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.002345] (my_bridge) JobQueued: {'identifier': 'my_bridge', 'dependencies': OrderedDict()}
+[0.002421] (my_bridge) JobStarted: {'identifier': 'my_bridge'}
+[0.099704] (-) TimerEvent: {}
+[0.200002] (-) TimerEvent: {}
+[0.300339] (-) TimerEvent: {}
+[0.400727] (-) TimerEvent: {}
+[0.501071] (-) TimerEvent: {}
+[0.601399] (-) TimerEvent: {}
+[0.701741] (-) TimerEvent: {}
+[0.802090] (-) TimerEvent: {}
+[0.902467] (-) TimerEvent: {}
+[1.002866] (-) TimerEvent: {}
+[1.103239] (-) TimerEvent: {}
+[1.203589] (-) TimerEvent: {}
+[1.303958] (-) TimerEvent: {}
+[1.340936] (my_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_bridge', 'build', '--build-base', '/home/manuel/ws_moveit/src/build/my_bridge/build', 'install', '--record', '/home/manuel/ws_moveit/src/build/my_bridge/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/manuel/ws_moveit/src/my_bridge', 'env': {'USER': 'manuel', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/manuel/ws_moveit', 'HOME': '/home/manuel', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/manuel/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2616', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dd16c222519f42fae7ceabb768e9ceaa', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/manuel/ws_moveit/install:/home/manuel/ws_moveit', 'LOGNAME': 'manuel', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'manuel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manuel-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/2616,unix/manuel-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/2616', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/96d70c4a_c04c_4cbd_901d_bfd2a0c87ef4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.131', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZTW9D3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/manuel/ws_moveit/src/build/my_bridge', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dd16c222519f42fae7ceabb768e9ceaa', 'PYTHONPATH': '/home/manuel/ws_moveit/src/build/my_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/home/manuel/ws_moveit/install/basic_arm2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.404076] (-) TimerEvent: {}
+[1.504417] (-) TimerEvent: {}
+[1.604761] (-) TimerEvent: {}
+[1.705128] (-) TimerEvent: {}
+[1.789156] (my_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[1.789661] (my_bridge) StdoutLine: {'line': b'creating ../build/my_bridge/my_bridge.egg-info\n'}
+[1.805245] (-) TimerEvent: {}
+[1.825642] (my_bridge) StdoutLine: {'line': b'writing ../build/my_bridge/my_bridge.egg-info/PKG-INFO\n'}
+[1.826105] (my_bridge) StdoutLine: {'line': b'writing dependency_links to ../build/my_bridge/my_bridge.egg-info/dependency_links.txt\n'}
+[1.826370] (my_bridge) StdoutLine: {'line': b'writing entry points to ../build/my_bridge/my_bridge.egg-info/entry_points.txt\n'}
+[1.826726] (my_bridge) StdoutLine: {'line': b'writing requirements to ../build/my_bridge/my_bridge.egg-info/requires.txt\n'}
+[1.826947] (my_bridge) StdoutLine: {'line': b'writing top-level names to ../build/my_bridge/my_bridge.egg-info/top_level.txt\n'}
+[1.827151] (my_bridge) StdoutLine: {'line': b"writing manifest file '../build/my_bridge/my_bridge.egg-info/SOURCES.txt'\n"}
+[1.904604] (my_bridge) StdoutLine: {'line': b"reading manifest file '../build/my_bridge/my_bridge.egg-info/SOURCES.txt'\n"}
+[1.905390] (my_bridge) StdoutLine: {'line': b"writing manifest file '../build/my_bridge/my_bridge.egg-info/SOURCES.txt'\n"}
+[1.905720] (-) TimerEvent: {}
+[1.905889] (my_bridge) StdoutLine: {'line': b'running build\n'}
+[1.906115] (my_bridge) StdoutLine: {'line': b'running build_py\n'}
+[1.906468] (my_bridge) StdoutLine: {'line': b'creating /home/manuel/ws_moveit/src/build/my_bridge/build\n'}
+[1.906720] (my_bridge) StdoutLine: {'line': b'creating /home/manuel/ws_moveit/src/build/my_bridge/build/lib\n'}
+[1.906950] (my_bridge) StdoutLine: {'line': b'creating /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge\n'}
+[1.907138] (my_bridge) StdoutLine: {'line': b'copying my_bridge/__init__.py -> /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge\n'}
+[1.907323] (my_bridge) StdoutLine: {'line': b'copying my_bridge/joint_states_to_delta_int.py -> /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge\n'}
+[1.907507] (my_bridge) StdoutLine: {'line': b'running install\n'}
+[1.915067] (my_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[1.954700] (my_bridge) StdoutLine: {'line': b'creating /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge\n'}
+[1.955064] (my_bridge) StdoutLine: {'line': b'copying /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge/__init__.py -> /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge\n'}
+[1.955351] (my_bridge) StdoutLine: {'line': b'copying /home/manuel/ws_moveit/src/build/my_bridge/build/lib/my_bridge/joint_states_to_delta_int.py -> /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge\n'}
+[1.955615] (my_bridge) StdoutLine: {'line': b'byte-compiling /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge/__init__.py to __init__.cpython-312.pyc\n'}
+[1.955921] (my_bridge) StdoutLine: {'line': b'byte-compiling /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge/joint_states_to_delta_int.py to joint_states_to_delta_int.cpython-312.pyc\n'}
+[1.957326] (my_bridge) StdoutLine: {'line': b'running install_data\n'}
+[1.957642] (my_bridge) StdoutLine: {'line': b'creating /home/manuel/ws_moveit/src/install/my_bridge/share/ament_index\n'}
+[1.957907] (my_bridge) StdoutLine: {'line': b'creating /home/manuel/ws_moveit/src/install/my_bridge/share/ament_index/resource_index\n'}
+[1.958122] (my_bridge) StdoutLine: {'line': b'creating /home/manuel/ws_moveit/src/install/my_bridge/share/ament_index/resource_index/packages\n'}
+[1.958349] (my_bridge) StdoutLine: {'line': b'copying resource/my_bridge -> /home/manuel/ws_moveit/src/install/my_bridge/share/ament_index/resource_index/packages\n'}
+[1.958600] (my_bridge) StdoutLine: {'line': b'copying package.xml -> /home/manuel/ws_moveit/src/install/my_bridge/share/my_bridge\n'}
+[1.958847] (my_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.998961] (my_bridge) StdoutLine: {'line': b'Copying ../build/my_bridge/my_bridge.egg-info to /home/manuel/ws_moveit/src/install/my_bridge/lib/python3.12/site-packages/my_bridge-0.0.0-py3.12.egg-info\n'}
+[2.000062] (my_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[2.005813] (-) TimerEvent: {}
+[2.106097] (-) TimerEvent: {}
+[2.206398] (-) TimerEvent: {}
+[2.240197] (my_bridge) StdoutLine: {'line': b'Installing joint_states_to_delta_int script to /home/manuel/ws_moveit/src/install/my_bridge/lib/my_bridge\n'}
+[2.240584] (my_bridge) StdoutLine: {'line': b"writing list of installed files to '/home/manuel/ws_moveit/src/build/my_bridge/install.log'\n"}
+[2.291145] (my_bridge) CommandEnded: {'returncode': 0}
+[2.306586] (-) TimerEvent: {}
+[2.319417] (my_bridge) JobEnded: {'identifier': 'my_bridge', 'rc': 0}
+[2.321185] (-) EventReactorShutdown: {}

@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<robot name="dummy_arm2" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find dummy_arm2_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find dummy_arm2_description)/urdf/dummy_arm2.trans" />
+<xacro:include filename="$(find dummy_arm2_description)/urdf/dummy_arm2.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-1.1580046200244058e-17 5.790023100122029e-18 0.024999999999999994" rpy="0 0 0"/>
+    <mass value="3.082687791334984"/>
+    <inertia ixx="0.002569" iyy="0.002569" izz="0.003853" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente22_1">
+  <inertial>
+    <origin xyz="-0.010211264227026446 7.372086376005458e-17 0.03978873577297355" rpy="0 0 0"/>
+    <mass value="4.842274659284458"/>
+    <inertia ixx="0.005953" iyy="0.005853" izz="0.005953" ixy="0.0" iyz="0.0" ixz="0.000923"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/Componente22_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/Componente22_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente23_1">
+  <inertial>
+    <origin xyz="-0.04382633344887045 1.7828469446955497e-17 0.03609905748256684" rpy="0 0 0"/>
+    <mass value="8.009137778382515"/>
+    <inertia ixx="0.016836" iyy="0.016935" izz="0.010111" ixy="0.0" iyz="-0.0" ixz="0.002203"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.05 -0.0 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/Componente23_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.05 -0.0 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/Componente23_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente24_1">
+  <inertial>
+    <origin xyz="0.06972499567000791 -2.6719989181409757e-15 0.04478782693038996" rpy="0 0 0"/>
+    <mass value="11.9971998448048"/>
+    <inertia ixx="0.015067" iyy="0.04653" izz="0.046459" ixy="0.0" iyz="-0.0" ixz="-0.003477"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.1 0.0 -0.201365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/Componente24_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.1 0.0 -0.201365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/Componente24_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Componente25_1">
+  <inertial>
+    <origin xyz="0.043447667239821366 6.86138785402539e-18 0.05770804597769624" rpy="0 0 0"/>
+    <mass value="10.405377980096134"/>
+    <inertia ixx="0.032262" iyy="0.032226" izz="0.012971" ixy="-0.0" iyz="-0.0" ixz="-0.002734"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.067459 0.0 -0.250019" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/Componente25_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.067459 0.0 -0.250019" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://dummy_arm2_description/meshes/Componente25_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="rev_join1" type="continuous">
+  <origin xyz="0.0 0.0 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Componente22_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+<joint name="rev_join2" type="continuous">
+  <origin xyz="-0.05 0.0 0.05" rpy="0 0 0"/>
+  <parent link="Componente22_1"/>
+  <child link="Componente23_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="rev_join3" type="continuous">
+  <origin xyz="-0.05 -0.0 0.101365" rpy="0 0 0"/>
+  <parent link="Componente23_1"/>
+  <child link="Componente24_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+<joint name="rev_join4" type="continuous">
+  <origin xyz="0.167459 0.0 0.048654" rpy="0 0 0"/>
+  <parent link="Componente24_1"/>
+  <child link="Componente25_1"/>
+  <axis xyz="0.999627 -0.0 0.027306"/>
+</joint>
+
+</robot>

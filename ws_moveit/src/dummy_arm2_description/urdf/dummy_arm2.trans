@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<robot name="dummy_arm2" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="rev_join1_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rev_join1">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rev_join1_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="rev_join2_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rev_join2">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rev_join2_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="rev_join3_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rev_join3">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rev_join3_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="rev_join4_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rev_join4">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rev_join4_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>

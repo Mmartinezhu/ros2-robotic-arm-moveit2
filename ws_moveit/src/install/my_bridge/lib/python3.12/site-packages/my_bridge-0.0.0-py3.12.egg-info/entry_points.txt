@@ -1,0 +1,2 @@
+[console_scripts]
+joint_states_to_delta_int = my_bridge.joint_states_to_delta_int:main

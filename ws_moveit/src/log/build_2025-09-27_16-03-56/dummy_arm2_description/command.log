@@ -1,0 +1,6 @@
+Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake /home/manuel/ws_moveit/src/dummy_arm2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/src/install/dummy_arm2_description
+Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake /home/manuel/ws_moveit/src/dummy_arm2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/src/install/dummy_arm2_description
+Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake --build /home/manuel/ws_moveit/src/build/dummy_arm2_description -- -j8 -l8
+Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake --build /home/manuel/ws_moveit/src/build/dummy_arm2_description -- -j8 -l8
+Invoking command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description': /usr/bin/cmake --install /home/manuel/ws_moveit/src/build/dummy_arm2_description
+Invoked command in '/home/manuel/ws_moveit/src/build/dummy_arm2_description' returned '0': /usr/bin/cmake --install /home/manuel/ws_moveit/src/build/dummy_arm2_description

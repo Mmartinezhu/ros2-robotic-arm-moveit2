@@ -1,0 +1,22 @@
+# Joint Limits for basic_arm2
+joint_limits:
+  rev_1:
+    has_velocity_limits: true
+    max_velocity: 0.46
+    has_acceleration_limits: true
+    max_acceleration: 0.23
+  rev_2:
+    has_velocity_limits: true
+    max_velocity: 0.039
+    has_acceleration_limits: true
+    max_acceleration: 0.02
+  rev_3:
+    has_velocity_limits: true
+    max_velocity: 0.0345
+    has_acceleration_limits: true
+    max_acceleration: 0.17
+  rev_4:
+    has_velocity_limits: true
+    max_velocity: 3.14
+    has_acceleration_limits: true
+    max_acceleration: 1.57

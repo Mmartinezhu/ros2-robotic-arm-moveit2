@@ -1,0 +1,137 @@
+Pasos para que funcione Fusion to urdf 
+-- En fusion: 
+- sin comas ni nombres en mayusculas una vez que compile 
+
+-cambiar CMake: eliminar dependencias ros1
+-cambiar package 
+- cambiar launch a ros2 
+
+
+cargar configuracion en rviz2 
+srobot model
+fixed frame en /base_link 
+description topic en robot_description 
+
+PARA CORRER 
+
+hacer source de ros y del ws
+
+source /opt/ros/jazzy/setup.zsh
+source install/setup.zsh
+
+
+cd ~/ros2_ws
+source install/setup.zsh
+
+
+launch brazo 1 
+ros2 launch dummy_arm_description display.launch.py
+
+launch brazo2 
+ros2 launch dummy_arm2_description display.launch.py
+
+moveit2 
+
+source install/setup.zsh
+ros2 launch moveit2_tutorials demo.launch.py
+
+
+## PASOS PARA EL SETUP DE EL Urdf"" 
+
+- compilar el paquete que queremos 
+
+cd ~/ws_moveit
+colcon build --packages-select dummy_arm2_description
+source install/setup.zsh
+
+- correr el setup de moveIt 
+export QT_QPA_PLATFORM=xcb      # si da error de entorno grafico agregar esta linea                       
+ros2 launch moveit_setup_assistant setup_assistant.launch.py  
+
+Subir archivo .xacro
+load files 
+
+## Comenzar con la confiiguracion 
+
+start screen :
+- check collision
+
+Self-collision:
+- generate collision matrix
+- matrix view. In this step u can see if the components can made a collition(check) or not (uncheck)
+
+Virtual joints: 
+empty 
+
+Planning Groups:
+You can made sub groups like the body of the arm and the hand 
+
+Group default planner: RRTConnect 
+
+add Kin.chain: in this case you select de base_link and the top link of the group 
+
+Robot Poses: 
+you can define some defalut poses like home 
+
+Define End Efferctors 
+
+if u have a gripper u can upload some states of this, like close or open. 
+
+Pasive joints
+mechanics joints.
+the robot cant control them.
+ros2_control & ROS2 Controllers & moveit controllers made de auto config 
+
+Perception :
+ if uf havve a cloud points 
+ 
+ agregar limites de velociad en joints 
+ 
+ lanzar paquete 
+
+source install/setup.zsh
+ros2 launch dummy_arm2_moveit_config demo.launch.py
+
+
+controllers 
+
+# Cargar individualmente
+ros2 control load_controller joint_state_broadcaster
+ros2 control load_controller manipulator_controller
+
+# O cargar ambos
+ros2 control load_controller joint_state_broadcaster manipulator_controller
+
+ 
+# configuracion
+
+ros2 service call /controller_manager/configure_controller controller_manager_msgs/srv/ConfigureController '{name: "joint_state_broadcaster"}'
+ros2 service call /controller_manager/configure_controller controller_manager_msgs/srv/ConfigureController '{name: "manipulator_controller"}'
+
+
+
+ros2 launch basic_arm2_moveit_config democontrol.launch.py 
+  ros2 topic pub /manipulator_controller/joint_trajectory trajectory_msgs/msg/JointTrajectory "{
+  joint_names: ['rev_1', 'rev_2', 'rev_3'],
+  points: [{positions: [10.0, 20.0, 30.0], time_from_start: {sec: 1}}]
+}"
+
+
+
+cd ~/microros_ws
+sros
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0
+
+ros2 topic pub -1  /motor_angles std_msgs/Int32MultiArray "data: [0, 360, 0]"
+
+puente 
+cd ~/ws_moveit
+sros
+ros2 run moveit_microros_bridge moveit_microros_bridge --ros-args \
+  -p use_relative_angles:=true \
+  -p min_angle_change:=1.0
+
+
+cd ~/ws_moveit
+sros
+ros2 launch basic_arm2_moveit_config democontrol.launch.py 

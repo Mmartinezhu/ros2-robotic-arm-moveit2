@@ -1,0 +1,11 @@
+{
+    "ros.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/manuel/ws_moveit/install/moveit_task_constructor_core/lib/python3.12/site-packages",
+        "/home/manuel/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.12/site-packages",
+        "/home/manuel/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages",
+        "/home/manuel/ws_moveit/build/moveit_configs_utils",
+        "/home/manuel/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

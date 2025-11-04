@@ -1,0 +1,65 @@
+[0.017s] Invoking command in '/home/manuel/ws_moveit/build/basic_arm2_moveit_config': CMAKE_PREFIX_PATH=/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/basic_arm2_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/basic_arm2_moveit_config
+[0.136s] -- The C compiler identification is GNU 13.3.0
+[0.233s] -- The CXX compiler identification is GNU 13.3.0
+[0.272s] -- Detecting C compiler ABI info
+[0.453s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.466s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.483s] -- Detecting CXX compiler ABI info
+[0.706s] -- Detecting CXX compiler ABI info - done
+[0.729s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.730s] -- Detecting CXX compile features
+[0.732s] -- Detecting CXX compile features - done
+[0.750s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.955s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.044s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.230s] -- Configuring done (1.2s)
+[1.234s] -- Generating done (0.0s)
+[1.236s] -- Build files have been written to: /home/manuel/ws_moveit/build/basic_arm2_moveit_config
+[1.242s] Invoked command in '/home/manuel/ws_moveit/build/basic_arm2_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/manuel/ws_moveit/src/basic_arm2_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/ws_moveit/install/basic_arm2_moveit_config
+[1.244s] Invoking command in '/home/manuel/ws_moveit/build/basic_arm2_moveit_config': CMAKE_PREFIX_PATH=/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/basic_arm2_moveit_config -- -j8 -l8
+[1.324s] Invoked command in '/home/manuel/ws_moveit/build/basic_arm2_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/manuel/ws_moveit/build/basic_arm2_moveit_config -- -j8 -l8
+[1.325s] Invoking command in '/home/manuel/ws_moveit/build/basic_arm2_moveit_config': CMAKE_PREFIX_PATH=/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/basic_arm2_moveit_config
+[1.339s] -- Install configuration: ""
+[1.339s] -- Execute custom install script
+[1.340s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/ament_index/resource_index/package_run_dependencies/basic_arm2_moveit_config
+[1.365s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/ament_index/resource_index/parent_prefix_path/basic_arm2_moveit_config
+[1.388s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/environment/ament_prefix_path.sh
+[1.403s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/environment/ament_prefix_path.dsv
+[1.419s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/environment/path.sh
+[1.433s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/environment/path.dsv
+[1.448s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/local_setup.bash
+[1.473s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/local_setup.sh
+[1.489s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/local_setup.zsh
+[1.505s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/local_setup.dsv
+[1.520s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/package.dsv
+[1.535s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/ament_index/resource_index/packages/basic_arm2_moveit_config
+[1.550s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/cmake/basic_arm2_moveit_configConfig.cmake
+[1.564s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/cmake/basic_arm2_moveit_configConfig-version.cmake
+[1.578s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/package.xml
+[1.594s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/demo.launch.py
+[1.608s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/democontrol.launch.py
+[1.623s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/move_group.launch.py
+[1.650s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/moveit_rviz.launch.py
+[1.665s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/rsp.launch.py
+[1.678s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/setup_assistant.launch.py
+[1.699s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/spawn_controllers.launch.py
+[1.714s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.729s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/launch/warehouse_db.launch.py
+[1.749s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/basic_arm2.ros2_control.xacro
+[1.773s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/basic_arm2.srdf
+[1.790s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/basic_arm2.urdf.xacro
+[1.805s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/bio_ik_kinematics.yaml
+[1.829s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/initial_positions.yaml
+[1.844s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/joint_limits.yaml
+[1.858s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/kinematics.yaml
+[1.872s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/moveit.rviz
+[1.890s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/moveit_controllers.yaml
+[1.904s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/ompl_planning.yaml
+[1.918s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/pilz_cartesian_limits.yaml
+[1.936s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[1.961s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/ros2_controllers.yaml
+[1.976s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/config/trajopt_planning.yaml
+[1.991s] -- Symlinking: /home/manuel/ws_moveit/install/basic_arm2_moveit_config/share/basic_arm2_moveit_config/.setup_assistant
+[2.010s] Invoked command in '/home/manuel/ws_moveit/build/basic_arm2_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/manuel/ws_moveit/install/basic_arm2_description:/home/manuel/ws_moveit/install/basic_arm2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/manuel/ws_moveit/build/basic_arm2_moveit_config

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="basic_arm2_ros2_control" params="name initial_positions_file">
+    <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['initial_positions']}" />
+
+    <ros2_control name="${name}" type="system">
+      <hardware>
+        <!-- Hardware real controlado por micro-ROS -->
+        <plugin>mock_components/GenericSystem</plugin>
+
+        <!-- Parámetros de conexión con micro-ROS -->
+        <param name="use_micro_ros">true</param>
+        <param name="device">/dev/ttyACM0</param>
+        <param name="baudrate">115200</param>
+        <param name="num_joints">4</param>
+      </hardware>
+
+      <!-- Joint 1 -->
+      <joint name="rev_1">
+        <command_interface name="position" />
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['rev_1']}</param>
+        </state_interface>
+        <state_interface name="velocity" />
+      </joint>
+
+      <!-- Joint 2 -->
+      <joint name="rev_2">
+        <command_interface name="position" />
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['rev_2']}</param>
+        </state_interface>
+        <state_interface name="velocity" />
+      </joint>
+
+      <!-- Joint 3 -->
+      <joint name="rev_3">
+        <command_interface name="position" />
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['rev_3']}</param>
+        </state_interface>
+        <state_interface name="velocity" />
+      </joint>
+
+      <!-- Joint 4 -->
+      <joint name="rev_4">
+        <command_interface name="position" />
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['rev_4']}</param>
+        </state_interface>
+        <state_interface name="velocity" />
+      </joint>
+
+    </ros2_control>
+  </xacro:macro>
+
+</robot>

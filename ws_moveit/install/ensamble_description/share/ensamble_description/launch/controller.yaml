@@ -1,0 +1,31 @@
+ensamble_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  rev_2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: rev_2
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  rev_1 _position_controller:
+    type: effort_controllers/JointPositionController
+    joint: rev_1 
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  rev_3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: rev_3
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  rev_4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: rev_4
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Corredera 7_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Corredera 7
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Corredera 8_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Corredera 8
+    pid: {p: 100.0, i: 0.01, d: 10.0}

@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<robot name="ensamble" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="rev_2_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rev_2">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rev_2_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="rev_1 _tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rev_1 ">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rev_1 _actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="rev_3_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rev_3">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rev_3_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="rev_4_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rev_4">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rev_4_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Corredera 7_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Corredera 7">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Corredera 7_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Corredera 8_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Corredera 8">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Corredera 8_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>

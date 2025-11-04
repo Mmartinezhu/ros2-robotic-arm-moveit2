@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manuel/ws_moveit/src/build/dummy_arm2_description
+-- Install configuration: ""
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf/dummy_arm2.xacro
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf/dummy_arm2.trans
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf/dummy_arm2.gazebo
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/urdf/materials.xacro
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/display.launch.py
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/gazebo.launch
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/controller.yaml
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/controller.launch
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/launch/urdf.rviz
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente24_1.stl
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente22_1.stl
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente25_1.stl
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente23_1.stl
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/Componente26_1.stl
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/meshes/base_link.stl
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/ament_index/resource_index/package_run_dependencies/dummy_arm2_description
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/ament_index/resource_index/parent_prefix_path/dummy_arm2_description
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/environment/ament_prefix_path.sh
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/environment/ament_prefix_path.dsv
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/environment/path.sh
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/environment/path.dsv
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/local_setup.bash
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/local_setup.sh
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/local_setup.zsh
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/local_setup.dsv
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.dsv
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/ament_index/resource_index/packages/dummy_arm2_description
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/cmake/dummy_arm2_descriptionConfig.cmake
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/cmake/dummy_arm2_descriptionConfig-version.cmake
+-- Installing: /home/manuel/ws_moveit/src/install/dummy_arm2_description/share/dummy_arm2_description/package.xml
