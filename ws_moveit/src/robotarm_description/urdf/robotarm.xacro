@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+<robot name="robotarm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find robotarm_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find robotarm_description)/urdf/robotarm.trans" />
+<xacro:include filename="$(find robotarm_description)/urdf/robotarm.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.05441567585922915 0.038264036386512414 0.025063739219707865" rpy="0 0 0"/>
+    <mass value="0.6459073532905351"/>
+    <inertia ixx="0.002477" iyy="0.001981" izz="0.003964" ixy="-0.000278" iyz="0.000133" ixz="9.8e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_2_v1_1">
+  <inertial>
+    <origin xyz="0.002359592089582009 -0.000812900032715648 0.09667801799298509" rpy="0 0 0"/>
+    <mass value="1.4491210282480833"/>
+    <inertia ixx="0.007495" iyy="0.007439" izz="0.0023" ixy="-2.8e-05" iyz="6.8e-05" ixz="-0.000101"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.061006 -0.05289 -0.002074" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/joint_2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="blue_dark"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.061006 -0.05289 -0.002074" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/joint_2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_3_v1_1">
+  <inertial>
+    <origin xyz="0.029270587909184992 0.03486933393906797 0.05338758896495685" rpy="0 0 0"/>
+    <mass value="0.6064435762795566"/>
+    <inertia ixx="0.01127" iyy="0.006952" izz="0.006335" ixy="-0.002205" iyz="-0.005298" ixz="-0.002143"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.106513 -0.032739 -0.167268" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/joint_3_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.106513 -0.032739 -0.167268" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/joint_3_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_5_v1_1">
+  <inertial>
+    <origin xyz="-0.000891502029970126 -0.006715989010736556 0.037509505497136275" rpy="0 0 0"/>
+    <mass value="0.12202728795118938"/>
+    <inertia ixx="9.1e-05" iyy="6.2e-05" izz="6.1e-05" ixy="-8e-06" iyz="-4e-06" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.193 -0.2105062 -0.54731242" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/joint_5_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="blue_dark"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.193 -0.2105062 -0.5473242" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/joint_5_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="grip2_v1_1">
+  <inertial>
+    <origin xyz="-0.08546283275536484 -0.23031209325182947 0.1662364061856606" rpy="0 0 0"/>
+    <mass value="0.005879723715218006"/>
+    <inertia ixx="2e-06" iyy="1e-06" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.281736 -0.425071 -0.4665072" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/grip2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.281736 -0.425071 -0.4665072" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/grip2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="grip1_v1_1">
+  <inertial>
+    <origin xyz="-0.10336412167373638 -0.17421974830752945 0.16348197028769296" rpy="0 0 0"/>
+    <mass value="0.0058797236680180965"/>
+    <inertia ixx="2e-06" iyy="1e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.297337 -0.39926 -0.46427" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/grip1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.297337 -0.39926 -0.46427" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/grip1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint4_v5_1">
+  <inertial>
+    <origin xyz="-0.031485273327999774 0.020923158746832315 0.0689189040702754" rpy="0 0 0"/>
+    <mass value="1.4631986162351338"/>
+    <inertia ixx="0.001443" iyy="0.00173" izz="0.000886" ixy="0.000165" iyz="-0.000162" ixz="0.000139"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.2152 -0.205 -0.4420812" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/joint4_v5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="blue_dark"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.2152 -0.205 -0.4420812" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://robotarm_description/meshes/joint4_v5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+<joint name="rev1" type="continuous">
+  <origin xyz="0.061006 0.05289 0.002074" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="joint_2_v1_1"/>
+  <axis xyz="-0.005714 0.002574 -0.99998"/>
+</joint>
+
+<joint name="rev2" type="continuous">
+  <origin xyz="0.045507 -0.020151 0.165194" rpy="0 0 0"/>
+  <parent link="joint_2_v1_1"/>
+  <child link="joint_3_v1_1"/>
+  <axis xyz="-0.929021 0.369973 0.006261"/>
+</joint>
+
+<joint name="rev4" type="continuous">
+  <origin xyz="-0.022114 0.0042 0.106043" rpy="0 0 0"/>
+  <parent link="joint4_v5_1"/>
+  <child link="joint_5_v1_1"/>
+  <axis xyz="-0.0 -0.0 1.0"/>
+</joint>
+
+<joint name="Corredera 5" type="prismatic">
+  <origin xyz="0.08765 0.219009 -0.080617" rpy="0 0 0"/>
+  <parent link="joint_5_v1_1"/>
+  <child link="grip2_v1_1"/>
+  <axis xyz="0.235321 0.965513 -0.111395"/>
+  <limit upper="0.021" lower="-0.006" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Corredera 6" type="prismatic">
+  <origin xyz="0.109802 0.208198 -0.082853" rpy="0 0 0"/>
+  <parent link="joint_5_v1_1"/>
+  <child link="grip1_v1_1"/>
+  <axis xyz="0.235321 0.965513 -0.111395"/>
+  <limit upper="-0.022" lower="-0.041" effort="100" velocity="100"/>
+</joint>
+
+<joint name="rev3" type="continuous">
+  <origin xyz="0.10 0.175 0.275544" rpy="0 0 0"/>
+  <parent link="joint_3_v1_1"/>
+  <child link="joint4_v5_1"/>
+  <axis xyz="0.929021 -0.369973 -0.006261"/>
+</joint>
+
+</robot>
