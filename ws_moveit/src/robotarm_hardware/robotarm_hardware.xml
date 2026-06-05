@@ -1,0 +1,10 @@
+<library path="robotarm_hardware">
+  <class
+    name="robotarm_hardware/RobotArmHardware"
+    type="robotarm_hardware::RobotArmHardware"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware interface for the robotarm with 4 rotary joints + gripper.
+    </description>
+  </class>
+</library>

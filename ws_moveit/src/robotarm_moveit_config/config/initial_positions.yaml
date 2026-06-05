@@ -1,0 +1,9 @@
+# Default initial positions for robotarm's ros2_control fake system
+
+initial_positions:
+  Corredera 5: 0
+  Corredera 6: 0
+  rev1: 0
+  rev2: 0
+  rev3: 0
+  rev4: 0

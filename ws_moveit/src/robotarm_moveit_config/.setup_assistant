@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robotarm_description
+    relative_path: urdf/robotarm.xacro
+  srdf:
+    relative_path: config/robotarm.srdf
+  package_settings:
+    author_name: Manuel Martinez
+    author_email: mmartinezhu@unal.edu.co
+    generated_timestamp: 1764777737
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

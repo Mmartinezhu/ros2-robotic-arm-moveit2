@@ -1,0 +1,51 @@
+# TrajOpt planner parameters for MoveIt 2
+planning_plugin: trajopt_interface/TrajoptPlanner
+
+request_adapters:
+  - default_planner_request_adapters/AddTimeOptimalParameterization
+  - default_planner_request_adapters/FixWorkspaceBounds
+  - default_planner_request_adapters/FixStartStateBounds
+  - default_planner_request_adapters/FixStartStateCollision
+  - default_planner_request_adapters/FixStartStatePathConstraints
+
+start_state_max_bounds_error: 0.1
+
+# Parameters for the TrajOpt optimizer
+trajopt_param:
+  improve_ratio_threshold: 0.2
+  min_trust_box_size: 0.01
+  min_approx_improve_frac: 1e-4
+  max_iter: 200
+  trust_shrink_ratio: 0.1
+  trust_expand_ratio: 1.5
+  cnt_tolerance: 1e-4
+  max_merit_coeff_increases: 5
+  merit_coeff_increase_ratio: 10
+  merit_error_coeff: 1.0
+  trust_box_size: 1.0
+
+problem_info:
+  basic_info:
+    n_steps: 25              # More steps = smoother path
+    use_time: true
+    start_fixed: true
+    convex_solver: 1         # AUTO_SOLVER
+  init_info:
+    type: 2                  # 1=STATIONARY, 2=JOINT_INTERPOLATED, 3=GIVEN_TRAJ
+    dt: 0.3
+  cost_terms:
+    joint_velocity:
+      name: joint_velocity
+      coeffs: [5, 5, 5, 5]
+      term_type: TT_COST
+    collision_cost:
+      name: collision_cost
+      term_type: TT_COST
+      coeffs: [20.0]
+      threshold: 0.02
+  constraint_terms:
+    final_pose:
+      name: final_pose
+      term_type: TT_CNT
+      coeffs: [10, 10, 10, 10]
+

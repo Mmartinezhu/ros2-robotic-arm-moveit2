@@ -1,0 +1,41 @@
+# joint_limits.yaml
+
+default_velocity_scaling_factor: 0.1
+default_acceleration_scaling_factor: 0.1
+
+joint_limits:
+  rev1:
+    has_velocity_limits: true
+    max_velocity: 0.45
+    has_acceleration_limits: true
+    max_acceleration: 0.9
+
+  rev2:
+    has_velocity_limits: true
+    max_velocity: 0.0393
+    has_acceleration_limits: true
+    max_acceleration: 0.08
+
+  rev3:
+    has_velocity_limits: true
+    max_velocity: 0.432
+    has_acceleration_limits: true
+    max_acceleration: 0.86
+
+  rev4:
+    has_velocity_limits: true
+    max_velocity: 1.16
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+
+  "Corredera 5":
+    has_velocity_limits: true
+    max_velocity: 0.6
+    has_acceleration_limits: true
+    max_acceleration: 0.5
+
+  "Corredera 6":
+    has_velocity_limits: true
+    max_velocity: 0.6
+    has_acceleration_limits: true
+    max_acceleration: 0.5
